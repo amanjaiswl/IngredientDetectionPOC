@@ -33,17 +33,27 @@ def upload_file():
             session['results'] = list(result)
 
             # Generate a unique file name
-            unique_filename = str(uuid.uuid4()) + '.jpg'
+            unique_filename = str(uuid.uuid4())
 
             # Save the image to a temporary file
-            temp_file = "/tmp/" + unique_filename
+            temp_file = "/tmp/" + unique_filename + '.jpg'
             image.save(temp_file)
 
-            # Upload the file to S3
-            s3.upload_file(temp_file, os.getenv('YOUR_BUCKET_NAME'), unique_filename)
+            # Upload the image to S3
+            s3.upload_file(temp_file, os.getenv('YOUR_BUCKET_NAME'), unique_filename + '.jpg')
+
+            # Create a JSON file with the results
+            result_json = json.dumps(session['results'])
+            result_file = "/tmp/" + unique_filename + '.json'
+            with open(result_file, 'w') as f:
+                f.write(result_json)
+
+            # Upload the results JSON file to S3
+            s3.upload_file(result_file, os.getenv('YOUR_BUCKET_NAME'), unique_filename + '.json')
 
             return redirect(url_for('results'))
     return render_template('index.html')
+
 
             
 

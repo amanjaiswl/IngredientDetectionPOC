@@ -13,15 +13,21 @@
             max-width: 600px;
             height: auto;
         }
+        /* Set the dimensions of the image preview */
+        #image-preview {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+        }
     </style>
 </head>
 <body>
     <h1>Upload an image</h1>
-    <input type="file" id="file-upload" hidden>
     <button id="file-upload-btn">Choose File</button> or
     <button id="start-camera">Capture from Camera</button>
     <video id="camera-stream" hidden autoplay></video>
     <button id="capture-btn" hidden>Capture</button>
+    <img id="image-preview" hidden>
     <form method="post" enctype="multipart/form-data" id="upload-form" hidden>
         <input type="file" name="file" id="file" hidden>
         <button type="submit">Upload</button>
@@ -30,24 +36,26 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         const fileUploadButton = document.getElementById('file-upload-btn');
-        const fileUpload = document.getElementById('file-upload');
         const startCameraButton = document.getElementById('start-camera');
         const cameraStream = document.getElementById('camera-stream');
         const captureButton = document.getElementById('capture-btn');
+        const imagePreview = document.getElementById('image-preview');
         const uploadForm = document.getElementById('upload-form');
         const fileInput = document.getElementById('file');
 
         fileUploadButton.addEventListener('click', () => {
-            fileUpload.click();
+            fileInput.click();
         });
 
-        fileUpload.addEventListener('change', () => {
-            const file = fileUpload.files[0];
+        fileInput.addEventListener('change', () => {
+            const file = fileInput.files[0];
             if (file) {
-                const dataTransfer = new DataTransfer();
-                dataTransfer.items.add(file);
-                fileInput.files = dataTransfer.files;
+                const url = URL.createObjectURL(file);
+                imagePreview.src = url;
+                imagePreview.hidden = false;
                 uploadForm.hidden = false;
+                startCameraButton.hidden = false;
+                cameraStream.hidden = true;
             }
         });
 
@@ -55,6 +63,7 @@
             const stream = await navigator.mediaDevices.getUserMedia({ video: true });
             cameraStream.srcObject = stream;
             cameraStream.hidden = false;
+            imagePreview.hidden = true;
             startCameraButton.hidden = true;
             captureButton.hidden = false;
         });
@@ -72,7 +81,11 @@
                 const dataTransfer = new DataTransfer();
                 dataTransfer.items.add(file);
                 fileInput.files = dataTransfer.files;
+                const url = URL.createObjectURL(blob);
+                imagePreview.src = url;
+                imagePreview.hidden = false;
                 uploadForm.hidden = false;
+                startCameraButton.hidden = false;
             }, 'image/jpeg');
             captureButton.hidden = true;
         });
