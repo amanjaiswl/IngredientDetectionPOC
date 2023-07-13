@@ -4,6 +4,8 @@ import os
 import json
 import base64
 import requests
+import boto3
+import uuid
 from PIL import Image, ImageDraw
 os.environ['PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION'] = 'python'
 from google.cloud import vision
@@ -11,6 +13,11 @@ from io import BytesIO
 
 app = Flask(__name__)
 app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
+
+s3 = boto3.client('s3', 
+                  aws_access_key_id=os.getenv('YOUR_ACCESS_KEY'), 
+                  aws_secret_access_key=os.getenv('YOUR_SECRET_KEY'), 
+                  region_name=os.getenv('YOUR_REGION_NAME'))
 
 @app.route('/', methods=['GET', 'POST'])
 def upload_file():
@@ -24,25 +31,27 @@ def upload_file():
             image = Image.open(BytesIO(file.read()))
             result = process_image(image)
             session['results'] = list(result)
-            return redirect(url_for('guess'))
+
+            # Generate a unique file name
+            unique_filename = str(uuid.uuid4()) + '.jpg'
+
+            # Save the image to a temporary file
+            temp_file = "/tmp/" + unique_filename
+            image.save(temp_file)
+
+            # Upload the file to S3
+            s3.upload_file(temp_file, os.getenv('YOUR_BUCKET_NAME'), unique_filename)
+
+            return redirect(url_for('results'))
     return render_template('index.html')
 
-@app.route('/guess', methods=['GET', 'POST'])
-def guess():
-    if request.method == 'POST':
-        user_input = request.form['guess']
-        user_objects = set([obj.strip().lower() for obj in user_input.split(',')])
-        session['user_objects'] = list(user_objects)
-        return redirect(url_for('results'))
-    return render_template('guess.html')
+            
+
 
 @app.route('/results')
 def results():
-    user_objects = set(session.get('user_objects', []))
     results = set(session.get('results', []))
-    correct_predictions = user_objects.intersection(results)
-    score = len(correct_predictions) / len(user_objects) if user_objects else 0
-    return render_template('results.html', results=results, score=score, correct_predictions=correct_predictions, total=len(user_objects))
+    return render_template('results.html', results=results)
 
 
 def detect_objects(img):
