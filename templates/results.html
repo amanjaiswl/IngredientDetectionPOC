@@ -6,7 +6,15 @@
 <body>
     <h1>Results</h1>
     <p>Detected objects: {{ results }}</p>
-    <p>Objects detected from Ingredient List: {{ ingredients }}</p>
+    <p>Objects detected from Ingredient List:</p>
+    <ul>
+        {% for ingredient in ingredients %}
+            <li>
+                {{ ingredient.displayName }}
+                <img src="{{ ingredient.image }}" alt="{{ ingredient.displayName }}">
+            </li>
+        {% endfor %}
+    </ul>
     <a href="/">Back</a>
 </body>
 </html>

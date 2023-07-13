@@ -83,9 +83,10 @@ def results():
     detected_ingredients = []
     for ingredient in ingredient_list:
         if ingredient["displayName"].lower() in detected_objects or any(name.lower() in detected_objects for name in ingredient["alternateNames"]):
-            detected_ingredients.append(ingredient["displayName"])
+            detected_ingredients.append(ingredient)
 
     return render_template('results.html', results=detected_objects, ingredients=detected_ingredients)
+
 
 
 
