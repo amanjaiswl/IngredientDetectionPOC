@@ -19,6 +19,7 @@ s3 = boto3.client('s3',
                   aws_secret_access_key=os.getenv('YOUR_SECRET_KEY'), 
                   region_name=os.getenv('YOUR_REGION_NAME'))
 
+
 @app.route('/', methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
@@ -29,8 +30,18 @@ def upload_file():
             return 'No selected file'
         if file:
             image = Image.open(BytesIO(file.read()))
-            result = process_image(image)
-            session['results'] = list(result)
+            all_results = process_image(image)
+            session['results'] = list(all_results)
+
+            # Load the ingredient list from the JSON file
+            with open('output.json') as f:
+                ingredient_list = json.load(f)["Ingredients_DB"]
+
+            # Check which detected objects are in the ingredient list
+            detected_ingredients = []
+            for ingredient in ingredient_list:
+                if ingredient["displayName"].lower() in all_results or any(name.lower() in all_results for name in ingredient["alternateNames"]):
+                    detected_ingredients.append(ingredient["displayName"])
 
             # Generate a unique file name
             unique_filename = str(uuid.uuid4())
@@ -43,7 +54,11 @@ def upload_file():
             s3.upload_file(temp_file, os.getenv('YOUR_BUCKET_NAME'), unique_filename + '.jpg')
 
             # Create a JSON file with the results
-            result_json = json.dumps(session['results'])
+            results_dict = {
+                "all_detected_objects": list(all_results),
+                "detected_ingredients": detected_ingredients
+            }
+            result_json = json.dumps(results_dict)
             result_file = "/tmp/" + unique_filename + '.json'
             with open(result_file, 'w') as f:
                 f.write(result_json)
@@ -54,14 +69,25 @@ def upload_file():
             return redirect(url_for('results'))
     return render_template('index.html')
 
-
             
-
 
 @app.route('/results')
 def results():
-    results = set(session.get('results', []))
-    return render_template('results.html', results=results)
+    detected_objects = set(session.get('results', []))
+
+    # Load the ingredient list from the JSON file
+    with open('output.json') as f:
+        ingredient_list = json.load(f)["Ingredients_DB"]
+
+    # Check which detected objects are in the ingredient list
+    detected_ingredients = []
+    for ingredient in ingredient_list:
+        if ingredient["displayName"].lower() in detected_objects or any(name.lower() in detected_objects for name in ingredient["alternateNames"]):
+            detected_ingredients.append(ingredient["displayName"])
+
+    return render_template('results.html', results=detected_objects, ingredients=detected_ingredients)
+
+
 
 
 def detect_objects(img):

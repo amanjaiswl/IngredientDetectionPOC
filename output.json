@@ -1,0 +1,2617 @@
+{
+    "Ingredients_DB": [
+        {
+            "displayName": "De-seeded Cucumber",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1666876993/Cucumber%20Mayo%20Sandwich%20Filling/deseeded-cucumber-removebg-preview_zj4l6s.png"
+        },
+        {
+            "displayName": "Garlic",
+            "alternateNames": [
+                "Lehsoon",
+                "Bellulli"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230676/New%20Ingredients%20UI-%20Images/image_29_qoisnt.png"
+        },
+        {
+            "displayName": "Brandy",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1672379599/New%20Ingredients%20UI-%20Images/The-Mansion-House-Brandy_meow_1_qc4amg.png"
+        },
+        {
+            "displayName": "Besan Flour",
+            "alternateNames": [
+                "Gram Flour",
+                "Ka\u1e0dale Hi\u1e6d\u1e6du"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1674808645/New%20Ingredients%20UI-%20Images/png-clipart-farinata-di-ceci-gram-flour-savory-tart-wheat-flour-wheat-flour-recipe-pumpkin-thumbnail-removebg-preview_zo8xkb.png"
+        },
+        {
+            "displayName": "Mint Leaves",
+            "alternateNames": [
+                "Pudina"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230670/New%20Ingredients%20UI-%20Images/Rectangle_1368_kn5gr8.png"
+        },
+        {
+            "displayName": "Wai Wai Noodles",
+            "alternateNames": [
+                "Wai Wai Instant Noodles"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230678/New%20Ingredients%20UI-%20Images/Image-13_alnwvb.png"
+        },
+        {
+            "displayName": "Prepared Ingredients",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Cranberry Juice",
+            "alternateNames": [
+                "Karonda Juice"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678784489/New%20Ingredients%20UI-%20Images/Cranberry_200x150_Output_xg9vm1.png"
+        },
+        {
+            "displayName": "Washed Barley",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1653394756/Barley%20Mushroom%20Risotto/6316aa6ec9fc227c8e255c02c13b535d65522449-removebg-preview_skqwe6.png"
+        },
+        {
+            "displayName": "Carrot",
+            "alternateNames": [
+                "Gajar"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230685/New%20Ingredients%20UI-%20Images/Rectangle_1306_zthzby.png"
+        },
+        {
+            "displayName": "Tea",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1675069149/New%20Ingredients%20UI-%20Images/black-tea-powder-or-dry-dust-tea-powder-chai-patti-isolated-in-wooden-bowl-free-photo-removebg-preview_jlaqzo.png"
+        },
+        {
+            "displayName": "Vegetable Stock",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1637324262/West%20African%20Peanut%20Stew/61sNbNyUFVL._SL1000_-removebg-preview_dws5wo.png"
+        },
+        {
+            "displayName": "Walnut Kernels",
+            "alternateNames": [
+                "Akhrot"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230675/New%20Ingredients%20UI-%20Images/Rectangle_1411_ahrypd.png"
+        },
+        {
+            "displayName": "Egg White",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1685956802/scrambled%20eggs/eggs-cracked-shells-yokes-raw-1296x728-header-removebg-preview_twsdsn.png"
+        },
+        {
+            "displayName": "Vangi Bath Powder",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678879503/New%20Ingredients%20UI-%20Images/Vangi_bath_powder_1_eygbxj.png"
+        },
+        {
+            "displayName": "Steamed Vegetables",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Seasoned Batter",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Tomato Sauce",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686209515/Tomato%20KetchUp/Marinara-Sauce-main-removebg-preview_eftl6f.png"
+        },
+        {
+            "displayName": "Steamed Prawns",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1684500334/FBCAA8D7-A45F-4C17-86BB-069917C39F08-removebg-preview_xyqj2v.png"
+        },
+        {
+            "displayName": "Boiled Beetroot",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Cheddar Cheese",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1668516885/New%20Ingredients%20UI-%20Images/mozz-pizza-cheese_1-removebg-preview_cxktla.png"
+        },
+        {
+            "displayName": "Red Bell Pepper",
+            "alternateNames": [
+                "Laal Shimla Mirch",
+                "Kempu Dodda Menasu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230679/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_11_w3t89j.png"
+        },
+        {
+            "displayName": "Packet Milk",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1675071013/New%20Ingredients%20UI-%20Images/amul-double-toned-milk-200ml-removebg-preview_ekw3ml.png"
+        },
+        {
+            "displayName": "Red Carrot",
+            "alternateNames": [
+                "Laal Gajar"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678784490/New%20Ingredients%20UI-%20Images/Red_Carrot_200x150_mwjx9u.png"
+        },
+        {
+            "displayName": "Washed Prawns",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1653114994/Prawn%20mango%20curry%20/Small_Prawns-01-removebg-preview_t05le9.png"
+        },
+        {
+            "displayName": "Egg Yolk",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678083203/New%20Ingredients%20UI-%20Images/Eggs-Blog-2-e1519588127602-removebg-preview_su0rhn.png"
+        },
+        {
+            "displayName": "Parmesan Cheese Powder",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678784489/New%20Ingredients%20UI-%20Images/Permesean_Cheese200x150_Output_qbndkt.png"
+        },
+        {
+            "displayName": "White Wine Vinegar",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686216432/New%20Ingredients%20UI-%20Images/40003573_3-colavita-vinegar-white-wine-product-of-italy-removebg-preview_1_lwbhax.png"
+        },
+        {
+            "displayName": "Thyme",
+            "alternateNames": [
+                "Ajwain Flower",
+                "Oma Huvu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1672313707/New%20Ingredients%20UI-%20Images/Dried-Thyme-PNG-removebg-preview_dwoxyz.png"
+        },
+        {
+            "displayName": "Cut Bottle Gourd",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1671602743/Lauki/Step1-removebg-preview_qkq3xa.png"
+        },
+        {
+            "displayName": "Bisi Bele Bhath Powder",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1675157861/New%20Ingredients%20UI-%20Images/1_1bdfa318-9879-4821-9a5f-fb803c96f6d9_360x-removebg-preview_cfhq6n.png"
+        },
+        {
+            "displayName": "Water",
+            "alternateNames": [
+                "Paani",
+                "Neeru"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230682/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_31_tb2ggo.png"
+        },
+        {
+            "displayName": "Fennel Seeds Powder",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1684741108/New%20Ingredients%20UI-%20Images/fennelseedsground2_f2d18d50-904b-4e39-9372-ae28c2dde90d_grande-removebg-preview_jigc0e.png"
+        },
+        {
+            "displayName": "Unsalted Butter",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678083564/New%20Ingredients%20UI-%20Images/Amul_White_Butter_Unsalted_300x300-removebg-preview_bs1bo5.png"
+        },
+        {
+            "displayName": "Marinated Prawns",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686291255/New%20Ingredients%20UI-%20Images/Soy_sauce_Marinated_Raw_Shrimp_2-removebg-preview_k381rt.png"
+        },
+        {
+            "displayName": "Raw Mango Pulp",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686555062/New%20Ingredients%20UI-%20Images/raw-mango-pulp-which-removebg-preview_uwuetf.png"
+        },
+        {
+            "displayName": "Black Salt",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1684750672/New%20Ingredients%20UI-%20Images/Himalayan-Rock-Salt-powder-removebg-preview_pef5wg.png"
+        },
+        {
+            "displayName": "Saut\u00e9ed Chicken",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1684834741/New%20Ingredients%20UI-%20Images/15-minute-honey-garlic-chicken-square-removebg-preview_oy4vbo.png"
+        },
+        {
+            "displayName": "Basil",
+            "alternateNames": [
+                "Italian Basil"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230683/New%20Ingredients%20UI-%20Images/Rectangle_1289_ymx29a.png"
+        },
+        {
+            "displayName": "Boiled Corn",
+            "alternateNames": [
+                "Ubla Makka",
+                "Beyisid Jola"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1657538146/Corn%20Chaat/1000_F_232268087_zpXw7DD3nexUrO6u3sayvGHu4MPDotne-removebg-preview_xthek3.png"
+        },
+        {
+            "displayName": "Saut\u00e9ed Paneer",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Washed Mint Leaves",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1675160882/3231.png_300-removebg-preview_s74z18.png"
+        },
+        {
+            "displayName": "Soaked Dry Fruits",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678169866/Thandai/almonds-removebg-preview_lfogjv.png"
+        },
+        {
+            "displayName": "Lauki",
+            "alternateNames": [
+                "Bottle Gourd",
+                "Doodhi",
+                "Sorekayi"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678784490/New%20Ingredients%20UI-%20Images/lauki-200x150_yuhnu8.png"
+        },
+        {
+            "displayName": "Aam Panna",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686555062/New%20Ingredients%20UI-%20Images/raw-mango-pulp-which-removebg-preview_uwuetf.png"
+        },
+        {
+            "displayName": "Fennel Seeds",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1684922038/New%20Ingredients%20UI-%20Images/sorghum-500x500-removebg-preview_iz5ess.png"
+        },
+        {
+            "displayName": "Master Chow Hakka Noodles",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686569063/New%20Ingredients%20UI-%20Images/Chowmeinnoodlepack-Front_1024x-removebg-preview_hwrazk.png"
+        },
+        {
+            "displayName": "Cherry tomatoes",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230677/New%20Ingredients%20UI-%20Images/Image-1_o8bvov.png"
+        },
+        {
+            "displayName": "Washed Dal",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1675239223/New%20Ingredients%20UI-%20Images/images-removebg-preview_1_fd9q0s.png"
+        },
+        {
+            "displayName": "Coriander Powder",
+            "alternateNames": [
+                "Dhaniya",
+                "Kottambari Pudi"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230677/New%20Ingredients%20UI-%20Images/Image-3_qllwch.png"
+        },
+        {
+            "displayName": "Methi Seeds",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678951411/New%20Ingredients%20UI-%20Images/png-transparent-fenugreek-coriander-spice-indian-cuisine-herb-fenugreek-food-whole-grain-superfood-thumbnail-removebg-preview_1_vyqnql.png"
+        },
+        {
+            "displayName": "Jaggery Powder",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1684996502/New%20Ingredients%20UI-%20Images/Jaggery-Powder-Organic-Dukaan-removebg-preview_cvnsjx.png"
+        },
+        {
+            "displayName": "Master Chow Sauce",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686569389/New%20Ingredients%20UI-%20Images/40226881_4-masterchow-kolkata-king-stir-fry-sauce-schezwan-removebg-preview_lvw1ev.png"
+        },
+        {
+            "displayName": "Ponk",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686809467/New%20Ingredients%20UI-%20Images/IMG_3715-removebg-preview_frxz9g.png"
+        },
+        {
+            "displayName": "Purple Yam",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686810873/New%20Ingredients%20UI-%20Images/png-clipart-sweet-potato-root-crop-congee-tong-sui-fast-food-sweet-potato-dioscorea-alata-purple-sweet-potato-sweet-potato-miscellaneous-food-thumbnail-removebg-preview_zgbnfq.png"
+        },
+        {
+            "displayName": "Surti Papdi Beans",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686810714/New%20Ingredients%20UI-%20Images/PapdiBean-removebg-preview_nmdu9w.png"
+        },
+        {
+            "displayName": "Washed Rice",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1675239410/New%20Ingredients%20UI-%20Images/lovepik-rice-png-image_401024592_wh300-removebg-preview_ujoxcv.png"
+        },
+        {
+            "displayName": "Romaine Lettuce",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1685014931/Low%20Calorie%20Chicken%20Pasta/png-transparent-romaine-lettuce-iceberg-lettuce-vegetable-food-leaf-lettuce-vegetable-thumbnail-removebg-preview_smzg7c.png"
+        },
+        {
+            "displayName": "Extra Virgin Olive Oil",
+            "alternateNames": [
+                "Jaitoon Ka Tel"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1667803396/New%20Ingredients%20UI-%20Images/48-481912_olive-oil-png-picture-olive-oil-bottle-png-removebg-preview_tne4vk.png"
+        },
+        {
+            "displayName": "Minced Chicken",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Sunflower Seeds",
+            "alternateNames": [
+                "Surajmukhi Ke Beej",
+                "Suryakanti Bijagalu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1665558651/New%20Ingredients%20UI-%20Images/Sunflowerseeds-product-1_02_1200x1200-removebg-preview_b1wzot.png"
+        },
+        {
+            "displayName": "Veg Biryani Masala",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663250287/New%20Ingredients%20UI-%20Images/veg_biryani_masala_p9b8bj.png"
+        },
+        {
+            "displayName": "Steamer Basket with Prawns",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Green Pigeon Peas",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686811623/New%20Ingredients%20UI-%20Images/Fresh-Shelled-Pigeon-Peas-removebg-preview_2_gz4tyk.png"
+        },
+        {
+            "displayName": "Yellow Mustard Seeds",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1685600286/New%20Ingredients%20UI-%20Images/4-min-21-removebg-preview_bptq1l.png"
+        },
+        {
+            "displayName": "Idli Rice",
+            "alternateNames": [
+                "Parboiled Rice"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1685084358/New%20Ingredients%20UI-%20Images/7-removebg-preview_pw44ar.png"
+        },
+        {
+            "displayName": "Dehusked Split Urad Dal",
+            "alternateNames": [
+                "Dehusked black gram"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678951374/New%20Ingredients%20UI-%20Images/minapappu-1-removebg-preview_kppvni.png"
+        },
+        {
+            "displayName": "Baby Potatoes",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686812153/New%20Ingredients%20UI-%20Images/images-1-removebg-preview_qcoy5d.png"
+        },
+        {
+            "displayName": "Idli Rice",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678951374/New%20Ingredients%20UI-%20Images/rice-removebg-preview_x8ipjf.png"
+        },
+        {
+            "displayName": "Capsicum",
+            "alternateNames": [
+                "Shimla Mirch",
+                "Bell Pepper",
+                "Dodda Menasu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230685/New%20Ingredients%20UI-%20Images/Rectangle_1305_lqxj6p.png"
+        },
+        {
+            "displayName": "Aromatic Paste",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Toor Dal",
+            "alternateNames": [
+                "Arhar Dal",
+                "Pigeon Peas",
+                "Togaribele"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230674/New%20Ingredients%20UI-%20Images/Rectangle_1408_jthtbh.png"
+        },
+        {
+            "displayName": "Garam Masala",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663247183/New%20Ingredients%20UI-%20Images/Rectangle_1422_byeqcg.png"
+        },
+        {
+            "displayName": "Liquid Dishwashing Detergent",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1651650664/Deep%20cleaning/istockphoto-172857643-612x612-removebg-preview_jelayk.png"
+        },
+        {
+            "displayName": "Methi Muthiya",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686814035/New%20Ingredients%20UI-%20Images/fried-methi-muthia-recipe-1-removebg-preview_spqflf.png"
+        },
+        {
+            "displayName": "Yellow Lemon Zest",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1649759164/Peanuts%20chaat/lemons-removebg-preview_p5srh4.png"
+        },
+        {
+            "displayName": "Saut\u00e9ed Tomatoes",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1685773763/New%20Ingredients%20UI-%20Images/Blistered-Tomatoes-main-1-500x500-removebg-preview_ic8mep.png"
+        },
+        {
+            "displayName": "Tabasco Sauce",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686909364/New%20Ingredients%20UI-%20Images/30003538_6-tabasco-red-pepper-sauce-removebg-preview_we5qiw.png"
+        },
+        {
+            "displayName": "Kala Khatta Syrup",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1685775724/New%20Ingredients%20UI-%20Images/kala-khatta-250x250-removebg-preview_h3if93.png"
+        },
+        {
+            "displayName": "Soya Granules",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230668/New%20Ingredients%20UI-%20Images/Rectangle_1400_sru3co.png"
+        },
+        {
+            "displayName": "Namkeen Mixture",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1672818204/New%20Ingredients%20UI-%20Images/indian-namkeen-snacks-served-ceramic-260nw-1803322057-removebg-preview_dbzwhk.png"
+        },
+        {
+            "displayName": "Red Amaranth Leaves",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1675335134/New%20Ingredients%20UI-%20Images/amaranth-on-white-background-260nw-79868146-removebg-preview_x9buwi.png"
+        },
+        {
+            "displayName": "Jagermeister",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686910177/New%20Ingredients%20UI-%20Images/Screen-Shot-2018-09-20-at-12.08.39-PM-removebg-preview_dxu2nr.png"
+        },
+        {
+            "displayName": "Tomato",
+            "alternateNames": [
+                "Tamatar"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230682/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_27_npnnyq.png"
+        },
+        {
+            "displayName": "Triple Sec",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686909852/New%20Ingredients%20UI-%20Images/png-transparent-liqueur-triple-sec-saumur-whiskey-juice-lychee-juice-distilled-beverage-orange-orange-drink-thumbnail-removebg-preview_qvhgt3.png"
+        },
+        {
+            "displayName": "Gin",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686909680/New%20Ingredients%20UI-%20Images/Bombay-Sapphire-Gin-150x150-removebg-preview_ftmmdg.png"
+        },
+        {
+            "displayName": "Sweet Condensed Milk",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1685777703/New%20Ingredients%20UI-%20Images/nestle-milk-maid-5kg-500x500-removebg-preview_yb7qio.png"
+        },
+        {
+            "displayName": "Scotch",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686909972/New%20Ingredients%20UI-%20Images/Scottish-Leader-Original-Scotch-Whisky-150x150-removebg-preview_p5bndq.png"
+        },
+        {
+            "displayName": "Campari",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686910030/New%20Ingredients%20UI-%20Images/campari-150x150-removebg-preview_vw5uzp.png"
+        },
+        {
+            "displayName": "Paneer",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1629451784/Stir%20Fry/paneer_cubes_i7ww1x.png"
+        },
+        {
+            "displayName": "Onion",
+            "alternateNames": [
+                "Pyaaj",
+                "Irulli"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230679/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_6_ivwsgl.png"
+        },
+        {
+            "displayName": "new ingredient",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Processed Amaranth",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1675337756/New%20Ingredients%20UI-%20Images/90-removebg-preview_qwhxme.png"
+        },
+        {
+            "displayName": "White Rum",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686909789/New%20Ingredients%20UI-%20Images/59-594779_bacardi-superior-light-rum-750-ml-bottle-removebg-preview_g04gno.png"
+        },
+        {
+            "displayName": "Tequila",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686909593/New%20Ingredients%20UI-%20Images/Libre_Spirits_-_Silver_-_TEQUILA_copy_150x-removebg-preview_vser1s.png"
+        },
+        {
+            "displayName": "Vanilla Flavoured Syrup",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686910422/New%20Ingredients%20UI-%20Images/40243099-6_2-goodmoore-sugar-free-vanilla-flavoured-syrup-great-for-shakes-ice-creams-removebg-preview_anfoyk.png"
+        },
+        {
+            "displayName": "Coca Cola",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686910598/New%20Ingredients%20UI-%20Images/coke-removebg-preview_jaczqh.png"
+        },
+        {
+            "displayName": "Vodka",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686912392/New%20Ingredients%20UI-%20Images/L-08-762-00_1-_Jw4nyNi-small-removebg-preview_m3n4so.png"
+        },
+        {
+            "displayName": "Tomato Juice",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686912583/New%20Ingredients%20UI-%20Images/229926-6_4-real-fruit-power-juice-tomato-removebg-preview_vpzdh2.png"
+        },
+        {
+            "displayName": "Anardana Powder",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1687161338/New%20Ingredients%20UI-%20Images/anardana-150x150-removebg-preview_j428iy.png"
+        },
+        {
+            "displayName": "Button Mushroom",
+            "alternateNames": [
+                "Anabe"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230677/New%20Ingredients%20UI-%20Images/Image_ssyzbv.png"
+        },
+        {
+            "displayName": "Rasam Powder",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1672379599/New%20Ingredients%20UI-%20Images/rasam-powder-recipe_jpg-1_yidor0.png"
+        },
+        {
+            "displayName": "Washed Fish",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Hot Water",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230682/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_31_tb2ggo.png"
+        },
+        {
+            "displayName": "Black Chickpeas",
+            "alternateNames": [
+                "Kala Chana",
+                "Kappu Ka\u1e0dale",
+                "Bengal Gram"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1679396491/New%20Ingredients%20UI-%20Images/black-chickpea-bengal-gram-chick-260nw-1725322648-removebg-preview_iizcp4.png"
+        },
+        {
+            "displayName": "Jain Tomato Ketchup\u2934\ufe0f",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1687169500/New%20Ingredients%20UI-%20Images/41ZM1eNa6LS-removebg-preview_zrni14.png"
+        },
+        {
+            "displayName": "Split Urad Dal",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1687265238/New%20Ingredients%20UI-%20Images/fols-premium-urad-dal-split-black-gram-urad-chilka-dal-1-5-kg-product-images-orve8iuzqqx-p599049812-0-202303040032-removebg-preview_jjvzxk.png"
+        },
+        {
+            "displayName": "Arhar Dal",
+            "alternateNames": [
+                "Pigeon Peas"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1687324990/New%20Ingredients%20UI-%20Images/toor-arhar-dal-2-kg-0-20201013-removebg-preview_jwoehb.png"
+        },
+        {
+            "displayName": "Strawberry",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1673937648/New%20Ingredients%20UI-%20Images/barcodes_sa_2008_v320522-removebg-preview_aea39n.png"
+        },
+        {
+            "displayName": "Prepared Pasta",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Mutton Stock",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1682416666/Satara%20Special%20Karda%20Mutton/mutton-stock2-removebg-preview_kyorxf.png"
+        },
+        {
+            "displayName": "Namkeen Boondi",
+            "alternateNames": [
+                "Buniya",
+                "Bonde",
+                "Bundi"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1676979716/Jal%20Jeera/khara-bundi-removebg-preview_uo7sdr.png"
+        },
+        {
+            "displayName": "new ingredient",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Boiled Chickpeas",
+            "alternateNames": [],
+            "image": "https://i0.wp.com/www.indicuisine.com/wp-content/uploads/2016/03/boil-black-chickpeas-kala-chana-chaat-recipe.jpg"
+        },
+        {
+            "displayName": "new ingredient",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Boiled Potatoes",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1687348755/New%20Ingredients%20UI-%20Images/how-to-boil-potatoes-12-50762c1e094148a1808538f7d89b7d71-removebg-preview_eikkpr.png"
+        },
+        {
+            "displayName": "Peeled Mango",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1683021806/New%20Ingredients%20UI-%20Images/peeled-mango-isolated-260nw-1337754581-removebg-preview_wgytzr.png"
+        },
+        {
+            "displayName": "Diced Zucchini",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1683352970/New%20Ingredients%20UI-%20Images/zucchini-cubes-isolated-on-white-260nw-1643786347-removebg-preview_xdwiu7.png"
+        },
+        {
+            "displayName": "MasterChow Sweet & Spicy",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1687498337/Schezwan%20Noodles%20with%20Masterchow/Sweet_SpicyNoodleKit-Packof2-F2_1024x-removebg-preview_tzv8y7.png"
+        },
+        {
+            "displayName": "MasterChow Basil Sauce",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1687498337/Schezwan%20Noodles%20with%20Masterchow/LowcalBasilNoodleKit-Packof2-F4_1_1024x-removebg-preview_xxlwfm.png"
+        },
+        {
+            "displayName": "Saunf",
+            "alternateNames": [
+                "Fennel Seeds",
+                "Sompu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230673/New%20Ingredients%20UI-%20Images/Rectangle_1396_ye07yo.png"
+        },
+        {
+            "displayName": "Greek Yogurt",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1673937705/New%20Ingredients%20UI-%20Images/75220490-removebg-preview_ikdduk.png"
+        },
+        {
+            "displayName": "Pomegranate Pearls",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1679472938/Curd%20Rice/dafa0eea59edc3204940d5051b272b74-removebg-preview_zeoj2d.png"
+        },
+        {
+            "displayName": "Small Brinjal",
+            "alternateNames": [
+                "Baigan"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1670224467/New%20Ingredients%20UI-%20Images/brinjal-small-5-kg-250x250-removebg-preview_u0ghaf.png"
+        },
+        {
+            "displayName": "Spring Onion",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1687501180/New%20Ingredients%20UI-%20Images/Rectangle_1402_mx16vd-removebg-preview_drwlgc.png"
+        },
+        {
+            "displayName": "Powdered Dal",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1687760925/New%20Ingredients%20UI-%20Images/coarsely_powdered_roasted_chana_dal-removebg-preview_y8aysi.png"
+        },
+        {
+            "displayName": "Pav",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1683888454/New%20Ingredients%20UI-%20Images/pav-bhaji-bun-pandesal-bread-small-bread-recipe-white-bread-hot-dog-png-clipart-removebg-preview_xxrzex.png"
+        },
+        {
+            "displayName": "Trimmed Strawberries",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1673938582/New%20Ingredients%20UI-%20Images/one-ripe-strawberry-without-green-260nw-1152311174-removebg-preview_m3bu8g.png"
+        },
+        {
+            "displayName": "Soaked Black Chickpeas",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1679557844/Chickpea%20Poha%20Salad/Chickpea_raalfg.png"
+        },
+        {
+            "displayName": "new ingredient",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Star Anise",
+            "alternateNames": [
+                "Chakrafool",
+                "Star Sompu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230682/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_26_gwzcrp.png"
+        },
+        {
+            "displayName": "Instant Dal Mix",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1687761857/New%20Ingredients%20UI-%20Images/IMG_8929_332499dd-6a77-44e6-9cbe-3626422e9afd_800x-removebg-preview_r7tq8s.png"
+        },
+        {
+            "displayName": "Bhindi",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1687846086/New%20Ingredients%20UI-%20Images/png-transparent-lady-finger-vegetable-gumbo-ladyfinger-okra-vegetable-fruit-okra-natural-foods-leaf-vegetable-food-thumbnail-removebg-preview_r9jwfh.png"
+        },
+        {
+            "displayName": "Chole Masala",
+            "alternateNames": [
+                "Chana Masala"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678784488/New%20Ingredients%20UI-%20Images/Cholle_Masala_200x150_Output_wh8anc.png"
+        },
+        {
+            "displayName": "Frozen Curd",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1684218220/New%20Ingredients%20UI-%20Images/yogurtinbowl2_alexandraskitchen-removebg-preview_mp1jbt.png"
+        },
+        {
+            "displayName": "Banana",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1684224647/New%20Ingredients%20UI-%20Images/404-4045626_a-cavendish-banana-is-the-fruit-of-a-removebg-preview_a4l36f.png"
+        },
+        {
+            "displayName": "Cut Bhindi",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1687847401/New%20Ingredients%20UI-%20Images/643-6437150_lady-finger-cut-benefits-of-ladies-finger-hd-removebg-preview_hbfno4.png"
+        },
+        {
+            "displayName": "Steamed Vegetables",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1684234996/New%20Ingredients%20UI-%20Images/mixed-vegetables-knob-melting-butter-260nw-1613845183-removebg-preview_xsb01o.png"
+        },
+        {
+            "displayName": "Raisins",
+            "alternateNames": [
+                "Dried Grape",
+                "Kishmish",
+                "Ona Drakshi"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230672/New%20Ingredients%20UI-%20Images/Rectangle_1387_c2r2sn.png"
+        },
+        {
+            "displayName": "Almond Milk",
+            "alternateNames": [
+                "Badam ka doodh"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1669880047/New%20Ingredients%20UI-%20Images/New_Almond_Milk-removebg-preview_ceestu.png"
+        },
+        {
+            "displayName": "Celery",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230685/New%20Ingredients%20UI-%20Images/Rectangle_1309_iad1ur.png"
+        },
+        {
+            "displayName": "Sprite",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230673/New%20Ingredients%20UI-%20Images/Rectangle_1404_ofdjwv.png"
+        },
+        {
+            "displayName": "Paneer (Non-Malai)",
+            "alternateNames": [
+                "Cottage Cheese"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230671/New%20Ingredients%20UI-%20Images/Rectangle_1376_xr8oxk.png"
+        },
+        {
+            "displayName": "Parchment Paper",
+            "alternateNames": [
+                "Baking Paper"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1684390779/New%20Ingredients%20UI-%20Images/71iJxfcwzGL._AC_SL1500_-removebg-preview_urigdc.png"
+        },
+        {
+            "displayName": "Idli Batter",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1684391446/New%20Ingredients%20UI-%20Images/61smJdwO8cL._SX569_-removebg-preview_hzjffj.png"
+        },
+        {
+            "displayName": "Black Cardamom",
+            "alternateNames": [
+                "Kaali Elaichi",
+                "Badi Elaichi",
+                "Kappu Elakki"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230684/New%20Ingredients%20UI-%20Images/Rectangle_1292_zosv7k.png"
+        },
+        {
+            "displayName": "Almonds",
+            "alternateNames": [
+                "Badam"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230682/New%20Ingredients%20UI-%20Images/Rectangle_1282_nuroey.png"
+        },
+        {
+            "displayName": "Chutney Podi",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1684392652/New%20Ingredients%20UI-%20Images/10952a-removebg-preview_1_cbc5gn.png"
+        },
+        {
+            "displayName": "Eno",
+            "alternateNames": [
+                "Baking Soda"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1684393484/New%20Ingredients%20UI-%20Images/361-3617156_eno-mausambi-flavour-eno-fruit-salt-orange-flavour-removebg-preview_1_oap3fg.png"
+        },
+        {
+            "displayName": "English Cucumber",
+            "alternateNames": [
+                "Kheera",
+                "Sautekayi"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230689/New%20Ingredients%20UI-%20Images/Rectangle_1343_o9crrz.png"
+        },
+        {
+            "displayName": "Amchur Powder",
+            "alternateNames": [
+                "Dry Mango Powder"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230683/New%20Ingredients%20UI-%20Images/Rectangle_1284_pxnvw9.png"
+        },
+        {
+            "displayName": "ID Coffee Decoction",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230676/New%20Ingredients%20UI-%20Images/image_30_rac33c.png"
+        },
+        {
+            "displayName": "Cubed Chicken Breast",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Hing",
+            "alternateNames": [
+                "Asafoetida"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230683/New%20Ingredients%20UI-%20Images/Rectangle_1286_dseeay.png"
+        },
+        {
+            "displayName": "De-seeded Mango",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1680154053/New%20Ingredients%20UI-%20Images/52-521887_mango-png-image-mongo-clipart-ripening-of-mango-removebg-preview.png"
+        },
+        {
+            "displayName": "Sambar Onions (Shallots)",
+            "alternateNames": [
+                "Sambhar Onion",
+                "Chote Pyaz"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230676/New%20Ingredients%20UI-%20Images/image_36_tzdvrn.png"
+        },
+        {
+            "displayName": "Baking Soda",
+            "alternateNames": [
+                "Sodium Bicarbonate",
+                "Sweet Soda"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230683/New%20Ingredients%20UI-%20Images/Rectangle_1287_qzf2gn.png"
+        },
+        {
+            "displayName": "new ingredient",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Tofu",
+            "alternateNames": [
+                "Soya Paneer"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230676/New%20Ingredients%20UI-%20Images/image_38_uaagw8.png"
+        },
+        {
+            "displayName": "Basmati Rice",
+            "alternateNames": [
+                "Long Grain Rice",
+                "Basmati Akki"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230685/New%20Ingredients%20UI-%20Images/Rectangle_1302_ielw6g.png"
+        },
+        {
+            "displayName": "Bay Leaf",
+            "alternateNames": [
+                "Tej Patta",
+                "Lavangada Ele"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230685/New%20Ingredients%20UI-%20Images/Rectangle_1301_tvhcol.png"
+        },
+        {
+            "displayName": "Cashews",
+            "alternateNames": [
+                "Kaju",
+                "Godambi"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230685/New%20Ingredients%20UI-%20Images/Rectangle_1307_takh6s.png"
+        },
+        {
+            "displayName": "Coriander Seeds",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1680171263/New%20Ingredients%20UI-%20Images/KOF-CorianderSeeds-removebg-preview_v5ampe.png"
+        },
+        {
+            "displayName": "Yellow Bell Pepper",
+            "alternateNames": [
+                "Peela Shimla Mirch",
+                "Haladi Dodda Menasu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230676/New%20Ingredients%20UI-%20Images/image_35_mzotbo.png"
+        },
+        {
+            "displayName": "Stuffed Brinjal",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1680506165/510e9dd1366506850b6e7cd65d7f6347-removebg-preview_xi2gzv.png"
+        },
+        {
+            "displayName": "Beetroot",
+            "alternateNames": [
+                "Chukandar"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230683/New%20Ingredients%20UI-%20Images/Rectangle_1291_ecxbkc.png"
+        },
+        {
+            "displayName": "Vinegar",
+            "alternateNames": [
+                "Sirka"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230682/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_32_d00qdy.png"
+        },
+        {
+            "displayName": "Black Pepper",
+            "alternateNames": [
+                "Kaali Mirch",
+                "Kappu Kalu Menasu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663245612/New%20Ingredients%20UI-%20Images/Rectangle_1416_v7pqpb.png"
+        },
+        {
+            "displayName": "Blended Paste",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1680617099/Peanut%20Brinjal%20Curry/Hotel-Style-Coconut-Chutney-2-removebg-preview_uslkc5.png"
+        },
+        {
+            "displayName": "Black Sesame Seeds",
+            "alternateNames": [
+                "Kaala Til",
+                "Kappu Ellu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1640179776/Puliyogre%20Rice/images-removebg-preview_3_o0huun.png"
+        },
+        {
+            "displayName": "White Rum",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230682/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_28_x81qj7.png"
+        },
+        {
+            "displayName": "Potato",
+            "alternateNames": [
+                "Aloo",
+                "Alugadde"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230672/New%20Ingredients%20UI-%20Images/Rectangle_1385_joffwk.png"
+        },
+        {
+            "displayName": "Spinach",
+            "alternateNames": [
+                "Palak",
+                "Palak Soppu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230681/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_20_xl7m9r.png"
+        },
+        {
+            "displayName": "Bok Choy",
+            "alternateNames": [
+                "Pak Choi",
+                "Pok Choi"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230684/New%20Ingredients%20UI-%20Images/Rectangle_1295_froocg.png"
+        },
+        {
+            "displayName": "Nigella Seeds",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1681205929/New%20Ingredients%20UI-%20Images/pngtree-black-sesame-free-illustration-image_1118623-removebg-preview_bsxhey.png"
+        },
+        {
+            "displayName": "Zucchini",
+            "alternateNames": [
+                "Kaddu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230675/New%20Ingredients%20UI-%20Images/Rectangle_1414_jd4th9.png"
+        },
+        {
+            "displayName": "Brinjal",
+            "alternateNames": [
+                "Eggplant",
+                "Baigan",
+                "Badanekayi"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230684/New%20Ingredients%20UI-%20Images/Rectangle_1297_j5zt5a.png"
+        },
+        {
+            "displayName": "Brown Sugar",
+            "alternateNames": [
+                "Kandu Sakkare"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230685/New%20Ingredients%20UI-%20Images/Rectangle_1300_i4ew62.png"
+        },
+        {
+            "displayName": "Ice Cubes",
+            "alternateNames": [
+                "Barf"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230668/New%20Ingredients%20UI-%20Images/Rectangle_1356_kbmoh2.png"
+        },
+        {
+            "displayName": "Boiled Mutton",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1681384252/New%20Ingredients%20UI-%20Images/pngtree-a-bowl-of-mutton-soup-hd-photography-material-picture-image_1724888-removebg-preview_jkrqqz.png"
+        },
+        {
+            "displayName": "Brown Rice",
+            "alternateNames": [
+                "Whole Grain Rice"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230685/New%20Ingredients%20UI-%20Images/Rectangle_1299_ypdhgp.png"
+        },
+        {
+            "displayName": "vivek",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Raw Banana",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1681456192/New%20Ingredients%20UI-%20Images/pngtree-green-banana-from-indonesia-png-image_4014494-removebg-preview_r4l5n8.png"
+        },
+        {
+            "displayName": "Rice Flour",
+            "alternateNames": [
+                "Chawal Ka aata",
+                "Akki Hittu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230673/New%20Ingredients%20UI-%20Images/Rectangle_1392_bdjwtx.png"
+        },
+        {
+            "displayName": "Butter",
+            "alternateNames": [
+                "Makkhan",
+                "Benne"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230686/New%20Ingredients%20UI-%20Images/Rectangle_1312_spzriq.png"
+        },
+        {
+            "displayName": "Limes",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Marinated Chicken Breast",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Maggi Magic Masala",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1681464054/New%20Ingredients%20UI-%20Images/maggi-maggi-magic-masala-globalfoodhub-com_512x512-removebg-preview_uz6yzu.png"
+        },
+        {
+            "displayName": "Washed Chicken",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1637241802/Afghani%20Chicken/10000909_8-fresho-chicken-curry-cut-without-skin-antibiotic-residue-free-removebg-preview_1_clzuhs.png"
+        },
+        {
+            "displayName": "Cabbage",
+            "alternateNames": [
+                "Patta Gobhi",
+                "Elekosu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230685/New%20Ingredients%20UI-%20Images/Rectangle_1304_zpii5x.png"
+        },
+        {
+            "displayName": "Mutton Keema",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1681480015/New%20Ingredients%20UI-%20Images/Mutton-Mince--500-gram--1-1646898945692-removebg-preview_oh70qy.png"
+        },
+        {
+            "displayName": "Apple",
+            "alternateNames": [
+                "Seb"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230683/New%20Ingredients%20UI-%20Images/Rectangle_1285_yiosqk.png"
+        },
+        {
+            "displayName": "Port Wine",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1672379599/New%20Ingredients%20UI-%20Images/port_wine-1_xrt72m.png"
+        },
+        {
+            "displayName": "Cut Broccoli",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1629720566/Pad%20Thai/broccoli_ohqot6.png"
+        },
+        {
+            "displayName": "Ripe Mango",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1680153707/New%20Ingredients%20UI-%20Images/mango_PNG9179-removebg-preview.png"
+        },
+        {
+            "displayName": "Moong Dal Split - Yellow",
+            "alternateNames": [
+                "Green Gram Beans- Without Skin",
+                "Hesarubele"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663252579/New%20Ingredients%20UI-%20Images/moong_dal_yellow_jphnuw.png"
+        },
+        {
+            "displayName": "Frozen Sorbet",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1671259647/Black%20Grapes%20Sorbet/2022-12-17-removebg-preview_e9n72e.png"
+        },
+        {
+            "displayName": "Prepared Thickener",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Refined Flour (Maida)",
+            "alternateNames": [
+                "Refined Flour",
+                "White Flour"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230673/New%20Ingredients%20UI-%20Images/Rectangle_1389_zjywx5.png"
+        },
+        {
+            "displayName": "Wine",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230682/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_30_kc4geb.png"
+        },
+        {
+            "displayName": "Orange Juice",
+            "alternateNames": [
+                "Santre ka Juice",
+                "Kittale Rasa"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678784490/New%20Ingredients%20UI-%20Images/Orange_Juice_200x150_mjo3oj.png"
+        },
+        {
+            "displayName": "Cinnamon Powder",
+            "alternateNames": [
+                "Daalchini Powder",
+                "Chakke Powder"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230687/New%20Ingredients%20UI-%20Images/Rectangle_1324_jxrrxn.png"
+        },
+        {
+            "displayName": "Whole Wheat Noodles",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230682/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_29_w9o6i4.png"
+        },
+        {
+            "displayName": "Panch Phoran",
+            "alternateNames": [
+                "Pancha Phutana",
+                "Panch Phodan",
+                "Indian 5 Spices Blend"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230671/New%20Ingredients%20UI-%20Images/Rectangle_1375_afg4eu.png"
+        },
+        {
+            "displayName": "Washed Dal and Rice",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1657524880/Mong%20dal%20Kichdi/Washed_rice_and_mong_dal-removebg-preview_hjsx0e.png"
+        },
+        {
+            "displayName": "Gojju Powder",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230667/New%20Ingredients%20UI-%20Images/Rectangle_1352_numwpr.png"
+        },
+        {
+            "displayName": "Dark Soy Sauce",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663252097/New%20Ingredients%20UI-%20Images/soy_sauce_cxqstf.png"
+        },
+        {
+            "displayName": "Marinated Paneer",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1656073107/Paneer%20Biryani/20220624_123032_zbuw4k.jpg"
+        },
+        {
+            "displayName": "Mixed Seeds",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1630678493/Quinoa%20Rooster%20Salad/mixed_seeds-removebg-preview_yoazsg.png"
+        },
+        {
+            "displayName": "Chicken Boneless",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1666247641/New%20Ingredients%20UI-%20Images/647-6473796_halal-boneless-chicken-thighs-hd-png-download-removebg-preview_dqgavj.png"
+        },
+        {
+            "displayName": "Marinated Fish",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1655907541/Coastal%20Fish%20Curry/40240468_4-fresho-peri-peri-basa-fish-steak-fresh-juicy-marinated-ready-to-cook-removebg-preview_oyzjpj.png"
+        },
+        {
+            "displayName": "Chips",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1665403603/New%20Ingredients%20UI-%20Images/540-5401718_potato-chips-png-hd-image-potato-chips-transparent-removebg-preview_njp9p9.png"
+        },
+        {
+            "displayName": "Green Chilli",
+            "alternateNames": [
+                "Hari Mirch",
+                "Hasi Menasu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230679/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_3_hjeznq.png"
+        },
+        {
+            "displayName": "Honey",
+            "alternateNames": [
+                "Shahad",
+                "Madhu",
+                "Jenu Tuppa"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230667/New%20Ingredients%20UI-%20Images/Rectangle_1355_e8xkux.png"
+        },
+        {
+            "displayName": "Jeera Powder",
+            "alternateNames": [
+                "Cumin Powder",
+                "Jeerige Powder"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1665053176/New%20Ingredients%20UI-%20Images/Screenshot_2022-10-06_160617-removebg-preview_fhuwth.png"
+        },
+        {
+            "displayName": "Pasta - Penne",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230671/New%20Ingredients%20UI-%20Images/Rectangle_1379_n8g24j.png"
+        },
+        {
+            "displayName": "Penne Pasta",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1631797760/Beetroot%20Pasta%20Salad/raw-penne-pasta-500x500-removebg-preview_ccqxui.png"
+        },
+        {
+            "displayName": "Chicken - Curry Cut",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230687/New%20Ingredients%20UI-%20Images/Rectangle_1318_loly0y.png"
+        },
+        {
+            "displayName": "Washed Poha",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1652085825/Poha/images-removebg-preview_6_wmuvfj.png"
+        },
+        {
+            "displayName": "Boiled Barley",
+            "alternateNames": [
+                "Jau"
+            ],
+            "image": ""
+        },
+        {
+            "displayName": "Boiled Daliya",
+            "alternateNames": [
+                "Boiled Broken Wheat",
+                "Godhi Tari"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1650449761/Daliya%20Salad/cooked_broken_wheat_recipe_dalia_1-2-removebg-preview_x8yfjd.png"
+        },
+        {
+            "displayName": "Coconut",
+            "alternateNames": [
+                "Nariyal",
+                "Tengina Kayi"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230676/New%20Ingredients%20UI-%20Images/image_27_sqhsz1.png"
+        },
+        {
+            "displayName": "Curry Leaves",
+            "alternateNames": [
+                "Kadi Patta",
+                "Karibevu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230689/New%20Ingredients%20UI-%20Images/Rectangle_1337_dhkiy2.png"
+        },
+        {
+            "displayName": "Mutton - Curry Cut",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678784487/New%20Ingredients%20UI-%20Images/Mutton_200x150_rdmfoq.png"
+        },
+        {
+            "displayName": "Parsley",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230679/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_9_fw2j4f.png"
+        },
+        {
+            "displayName": "Rosemary",
+            "alternateNames": [
+                "Gulmehdi"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230673/New%20Ingredients%20UI-%20Images/Rectangle_1395_mokv1z.png"
+        },
+        {
+            "displayName": "Saut\u00e9ed Mushroom and Spinach ",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Tomato Ketchup\u2934\ufe0f",
+            "alternateNames": [
+                "Ketchup"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230681/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_24_btakef.png"
+        },
+        {
+            "displayName": "Boiled Rice",
+            "alternateNames": [
+                "Ubla Chawal",
+                "Beyisid Akki"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1651824743/Chicken%20Biryani/images-removebg-preview_1_vt1dzh.png"
+        },
+        {
+            "displayName": "Processed Cauliflower",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1655298374/Pav%20Bhaji/frozen-cauliflower-1-removebg-preview_jr1w0e.png"
+        },
+        {
+            "displayName": "Dried Parsley",
+            "alternateNames": [
+                "Sookha Ajmod"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230689/New%20Ingredients%20UI-%20Images/Rectangle_1341_lcafwm.png"
+        },
+        {
+            "displayName": "Green Olives",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663323466/New%20Ingredients%20UI-%20Images/green_olives_wzq9ic.png"
+        },
+        {
+            "displayName": "Maggi Tastemaker",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678784488/New%20Ingredients%20UI-%20Images/Maggi_Tastemaker_200x150_Output_eqzaxn.png"
+        },
+        {
+            "displayName": "Cinnamon Stick",
+            "alternateNames": [
+                "Daalchini",
+                "Chakke"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230688/New%20Ingredients%20UI-%20Images/Rectangle_1325_jhi5yl.png"
+        },
+        {
+            "displayName": "Marinated Vegetables",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1651839620/Veg%20Biryani/images_ecwikx.jpg"
+        },
+        {
+            "displayName": "Spring Onion Green",
+            "alternateNames": [
+                "Eerulli Soppu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230670/New%20Ingredients%20UI-%20Images/Rectangle_1402_mx16vd.png"
+        },
+        {
+            "displayName": "Knorr Chicken Cubes",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1651905649/Hulk%20Ramen%20Bowl/12628548-0-A-700x700-removebg-preview_dm9wdf.png"
+        },
+        {
+            "displayName": "Chicken Biryani Masala",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663250537/New%20Ingredients%20UI-%20Images/Chicken_Biryani_Masala_ycrdl4.png"
+        },
+        {
+            "displayName": "Cling Wrap",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1652695175/Cookie%20Dough/stretch-flim-500x500-removebg-preview_cqmery.png"
+        },
+        {
+            "displayName": "Boiled Barley + Water",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1653375155/Barley%20Mushroom%20Risotto/AdobeStock_301315491-removebg-preview_qw6nlm.png"
+        },
+        {
+            "displayName": "Boiled Quinoa",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1632460158/Quinoa%20Rooster%20Salad/boiled_quinoa_xlitnw.jpg"
+        },
+        {
+            "displayName": "Cooked Rice",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1651824743/Chicken%20Biryani/images-removebg-preview_1_vt1dzh.png"
+        },
+        {
+            "displayName": "Diced Pork Belly",
+            "alternateNames": [],
+            "image": "M"
+        },
+        {
+            "displayName": "Ginger",
+            "alternateNames": [
+                "Adrak",
+                "Shunti"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230667/New%20Ingredients%20UI-%20Images/Rectangle_1349_gkcnps.png"
+        },
+        {
+            "displayName": "Liquid Dishwashing Detergent",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1651650664/Deep%20cleaning/istockphoto-172857643-612x612-removebg-preview_jelayk.png"
+        },
+        {
+            "displayName": "new ingredient",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Washed Chicken Breast",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Boiled Soya",
+            "alternateNames": [
+                "Ubla Soyabean"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1652958502/Veg%20Keema/big_soaked_soya_granules-13957-removebg-preview_yulm63.png"
+        },
+        {
+            "displayName": "Boiled Tomatoes",
+            "alternateNames": [
+                "Ubla Tamatar"
+            ],
+            "image": ""
+        },
+        {
+            "displayName": "Processed Spinach",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1657286828/Palak%20Pulao/D869_27_277_1200-removebg-preview_nywm0h.png"
+        },
+        {
+            "displayName": "Wai Wai Taste Enhancer",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1657711593/Bhel%20Puri/719zruy49nL._SL1500_-removebg-preview_kfvd3b.png"
+        },
+        {
+            "displayName": "Paneer Chilli Masala",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678784489/New%20Ingredients%20UI-%20Images/Paneer_Masala_200x150_jqznjc.png"
+        },
+        {
+            "displayName": "Defrosted Chicken Breast",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Feta Cheese",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1668435259/New%20Ingredients%20UI-%20Images/Mevgal_Greek_feta_cheese_200g-removebg-preview_vsghsy.png"
+        },
+        {
+            "displayName": "Sticky Rice",
+            "alternateNames": [
+                "Chipchipa Chawal"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678784489/New%20Ingredients%20UI-%20Images/Sticky_Rice_200x150_Output_fy1xlc.png"
+        },
+        {
+            "displayName": "Prepared Sauce",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1657607008/Kung%20Pao%20%28%20Non%20Veg%29/chinese-brown-sauce-4065294-hero-01-4b24a4c39573423fb945f9078e777eb9-removebg-preview_r4nvpo.png"
+        },
+        {
+            "displayName": "Processed Methi",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1655298210/Methi%20Matar%20Malai/images-removebg-preview_1_kuhvme.png"
+        },
+        {
+            "displayName": "Rice Paper",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1668508299/New%20Ingredients%20UI-%20Images/0003758_rice-paper-round-16-cm_340-removebg-preview_iknaa3.png"
+        },
+        {
+            "displayName": "Sesame Oil",
+            "alternateNames": [
+                "Til Ka Tel",
+                "Ellu Enne"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230667/New%20Ingredients%20UI-%20Images/Rectangle_1398_eenonr.png"
+        },
+        {
+            "displayName": "Fried Fish",
+            "alternateNames": [
+                "Meen Fry"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230690/New%20Ingredients%20UI-%20Images/Rectangle_1345_q0khz2.png"
+        },
+        {
+            "displayName": "Leek",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1668584044/New%20Ingredients%20UI-%20Images/kisspng-leek-soup-onion-vegetable-garden-leek-bazaar-fresh-online-vegetables-fruits-amp-gro-5d2382e54cfe33.7254262615626083573154-removebg-preview_cfeahs.png"
+        },
+        {
+            "displayName": "new ingredient",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Boiled Barley & Corn",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Boiled Broccoli",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1629720566/Pad%20Thai/broccoli_ohqot6.png"
+        },
+        {
+            "displayName": "Cream Chesse",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1669207586/dill%20dip/images-removebg-preview_3_g7thgu.png"
+        },
+        {
+            "displayName": "Magic Cubes",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1668007452/New%20Ingredients%20UI-%20Images/Maggi-magic-cubes-veg-removebg-preview_oahtno.png"
+        },
+        {
+            "displayName": "Prepared Dressing",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1653482994/Summer%20Pasta%20Salad/greek-salad-dressing-removebg-preview_ricrte.png"
+        },
+        {
+            "displayName": "Nescafe Coffee Gold",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678784488/New%20Ingredients%20UI-%20Images/Coffee_GOld_200x150_Output_jpbew0.png"
+        },
+        {
+            "displayName": "Marinated Chicken",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686573644/Marinanted_Chicken_hdi1vt.png"
+        },
+        {
+            "displayName": "Dill",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678784489/New%20Ingredients%20UI-%20Images/Dill_200x150_p6nio7.png"
+        },
+        {
+            "displayName": "Sausages",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1638016441/Chicken%20Arrabiata%20Pasta/16-min_1_COMPRESSED_COMPRESSED-removebg-preview_1_rx5rqp.png"
+        },
+        {
+            "displayName": "Thick Curd",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678784489/New%20Ingredients%20UI-%20Images/Thick_Curd_bwnbzy.png"
+        },
+        {
+            "displayName": "Boiled Pasta",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1653456459/Summer%20Pasta%20Salad/How-to-cook-rotini-pasta-on-the-stove-removebg-preview_afaru0.png"
+        },
+        {
+            "displayName": "new ingredient",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Nigella Seeds",
+            "alternateNames": [
+                "Kalaunji"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1668607495/New%20Ingredients%20UI-%20Images/black-cumin-seeds-nigella-kalonji-5-kg-377799278-grslx-removebg-preview_lzyyoq.png"
+        },
+        {
+            "displayName": "Parval (Pointed Gourd)",
+            "alternateNames": [
+                "Pointed Guard"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1669388484/New%20Ingredients%20UI-%20Images/Parval_Pointed_500x-removebg-preview_tgeynl.png"
+        },
+        {
+            "displayName": "Pearl Barley",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230676/New%20Ingredients%20UI-%20Images/image_34_kzhxne.png"
+        },
+        {
+            "displayName": "Soda",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1668518610/New%20Ingredients%20UI-%20Images/catch_club_soda_500ml_1-removebg-preview_kliz7a.png"
+        },
+        {
+            "displayName": "Pasta water",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1669027581/Aglio%20Olio/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2014__05__20140519-pasta-water-trio-1500x1000-b7a0ec03b1834441987747b1298c68f0-removebg-preview_1_nohlzd.png"
+        },
+        {
+            "displayName": "Green chilli without seeds",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dzmeefk8w/image/upload/v1650458340/00333728-A-green-chilli-pepper-chile-serrano-sierra-chilli-being-deseeded_i3svhd.jpg"
+        },
+        {
+            "displayName": "Cooked pasta",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/swateaaa/image/upload/v1655354145/red-sauce-pasta/cooked_pasta-removebg-preview_stz9ro.png"
+        },
+        {
+            "displayName": "Chilli Vinegar",
+            "alternateNames": [
+                "Mirchi Sirka"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678784218/New%20Ingredients%20UI-%20Images/Chilli_Vinegar_uzxwvu.png"
+        },
+        {
+            "displayName": "Cookie Dough",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1652695309/Cookie%20Dough/eggless-Cookie-Dough-735x616-removebg-preview_lgrupg.png"
+        },
+        {
+            "displayName": "Kashmiri Mirch",
+            "alternateNames": [
+                "Kashmiri Chilli Powder",
+                "Kashmiri Menasina Pudi"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230670/New%20Ingredients%20UI-%20Images/Rectangle_1369_te4xj9.png"
+        },
+        {
+            "displayName": "Marinated Pork",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1659081416/Caramelized%20Pork%20Stew/Marinated_pork_rpqglm.jpg"
+        },
+        {
+            "displayName": "Puliogare Powder",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230672/New%20Ingredients%20UI-%20Images/Rectangle_1386_ohaj4j.png"
+        },
+        {
+            "displayName": "Rajma",
+            "alternateNames": [
+                "Red Kidney Beans"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1644387574/Dal%20Makhni/rajma-kidney-beans-removebg-preview_bvsleg.png"
+        },
+        {
+            "displayName": "Spring Onion Oil",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1669038062/Earthy%20Mushroom%20Bowl/mo-hanh-recipe-1-removebg-preview_w9gt3z.png"
+        },
+        {
+            "displayName": "Washed Rajma",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Boiled Rajma",
+            "alternateNames": [
+                "Boiled Kidney Beans"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1670580872/New%20Ingredients%20UI-%20Images/images-removebg-preview_2_nxejzo.png"
+        },
+        {
+            "displayName": "Dried Red Chilli",
+            "alternateNames": [
+                "Sookhi Mirchi"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230689/New%20Ingredients%20UI-%20Images/Rectangle_1342_vxpagh.png"
+        },
+        {
+            "displayName": "Roasted Fox Nuts",
+            "alternateNames": [
+                "Makhana",
+                "Puffed Lotus Seed",
+                "Nari Kayi"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678784488/New%20Ingredients%20UI-%20Images/rOASTED_NUTS_200x150_Output_edbxed.png"
+        },
+        {
+            "displayName": "Mustard Seeds",
+            "alternateNames": [
+                "Sarso",
+                "Saasive"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230679/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_5_wdtntr.png"
+        },
+        {
+            "displayName": "Soaked Dal",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1658321120/Karnataka%20Sambar/soak_lentils-removebg-preview_rfsp41.png"
+        },
+        {
+            "displayName": "Kasoori Methi",
+            "alternateNames": [
+                "Fenugreek Leaves",
+                "Menthya Soppu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230677/New%20Ingredients%20UI-%20Images/Image-6_znpoi9.png"
+        },
+        {
+            "displayName": "Rohu Steak",
+            "alternateNames": [
+                "Rui Machi"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1667461503/Coastal%20Fish%20Curry/indian-salmon-rawas-steaks-slices-removebg-preview_a5usoc.png"
+        },
+        {
+            "displayName": "Sugar",
+            "alternateNames": [
+                "Cheeni",
+                "Sakkare"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230678/New%20Ingredients%20UI-%20Images/Image-12_fw8kpv.png"
+        },
+        {
+            "displayName": "Turmeric",
+            "alternateNames": [
+                "Haldi",
+                "Arisina"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230674/New%20Ingredients%20UI-%20Images/Rectangle_1409_uox9ah.png"
+        },
+        {
+            "displayName": "Kewra Water",
+            "alternateNames": [
+                "Kewra Essence"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230669/New%20Ingredients%20UI-%20Images/Rectangle_1362_pddijl.png"
+        },
+        {
+            "displayName": "Chana Dal",
+            "alternateNames": [
+                "Chickpea Split",
+                "Kadale Bele"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230674/New%20Ingredients%20UI-%20Images/Rectangle_1408_jthtbh.png"
+        },
+        {
+            "displayName": "Cauliflower",
+            "alternateNames": [
+                "Phool Gobhi",
+                "Hookosu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230686/New%20Ingredients%20UI-%20Images/Rectangle_1308_gx9rw9.png"
+        },
+        {
+            "displayName": "Corn",
+            "alternateNames": [
+                "Makka",
+                "Jola"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230688/New%20Ingredients%20UI-%20Images/Rectangle_1333_qgumwp.png"
+        },
+        {
+            "displayName": "Sweet Potato",
+            "alternateNames": [
+                "Shakarkand",
+                "Genasu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230681/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_25_bru3pw.png"
+        },
+        {
+            "displayName": "Pasta - Fusilli",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230678/New%20Ingredients%20UI-%20Images/Image-8_lfe758.png"
+        },
+        {
+            "displayName": "Peanuts (Raw)",
+            "alternateNames": [
+                "Moongfali",
+                "Kadalekayi"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230679/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_7_qg435y.png"
+        },
+        {
+            "displayName": "Red Chilli Sauce",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230680/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_12_uqxyrz.png"
+        },
+        {
+            "displayName": "Suji",
+            "alternateNames": [
+                "Semolina",
+                "Sooji Rava"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230674/New%20Ingredients%20UI-%20Images/Rectangle_1405_qd19m3.png"
+        },
+        {
+            "displayName": "Choco Chip",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230677/New%20Ingredients%20UI-%20Images/Image-2_px0oov.png"
+        },
+        {
+            "displayName": "Fusilli whole wheat pasta",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230690/New%20Ingredients%20UI-%20Images/Rectangle_1347_iuilrw.png"
+        },
+        {
+            "displayName": "Corn Flour",
+            "alternateNames": [
+                "Makke ka Aata",
+                "Jolada Hittu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230688/New%20Ingredients%20UI-%20Images/Rectangle_1334_cog4qz.png"
+        },
+        {
+            "displayName": "Instant Oats",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230668/New%20Ingredients%20UI-%20Images/Rectangle_1358_wixoup.png"
+        },
+        {
+            "displayName": "Puffed Rice (Murmure)",
+            "alternateNames": [
+                "Muri",
+                "Kadalepuri"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230678/New%20Ingredients%20UI-%20Images/Image-9_fwejcb.png"
+        },
+        {
+            "displayName": "Sambar Powder",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230680/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_16_zfoc9m.png"
+        },
+        {
+            "displayName": "Sona Masoori Rice",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230681/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_21_n1utpn.png"
+        },
+        {
+            "displayName": "TetraPak Milk",
+            "alternateNames": [
+                "Carton Milk"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230674/New%20Ingredients%20UI-%20Images/Rectangle_1406_tf8mxc.png"
+        },
+        {
+            "displayName": "Indian Cucumber",
+            "alternateNames": [
+                "Kheera",
+                "Sautekayi"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230689/New%20Ingredients%20UI-%20Images/Rectangle_1343_o9crrz.png"
+        },
+        {
+            "displayName": "Clove",
+            "alternateNames": [
+                "Laung",
+                "Lavanga"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230688/New%20Ingredients%20UI-%20Images/Rectangle_1327_yh4gnl.png"
+        },
+        {
+            "displayName": "Mustard Sauce",
+            "alternateNames": [
+                "Sarso Ki Chutney",
+                "Kasundi",
+                "Saasive Sauce"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230670/New%20Ingredients%20UI-%20Images/Rectangle_1371_cs1h7q.png"
+        },
+        {
+            "displayName": "Instant Noodles",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230668/New%20Ingredients%20UI-%20Images/Rectangle_1357_xqe4gj.png"
+        },
+        {
+            "displayName": "Lemon Juice",
+            "alternateNames": [
+                "Nimbu Juice",
+                "Nimbehannu Juice"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230679/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_4_tsqvov.png"
+        },
+        {
+            "displayName": "Mayonnaise",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230675/New%20Ingredients%20UI-%20Images/image_31_njusar.png"
+        },
+        {
+            "displayName": "Pav Bhaji Masala",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230671/New%20Ingredients%20UI-%20Images/Rectangle_1380_fqq59z.png"
+        },
+        {
+            "displayName": "Pork Belly",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230672/New%20Ingredients%20UI-%20Images/Rectangle_1384_dcqtop.png"
+        },
+        {
+            "displayName": "Chicken - Breast",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230686/New%20Ingredients%20UI-%20Images/Rectangle_1317_av8wc4.png"
+        },
+        {
+            "displayName": "Green Cardamom",
+            "alternateNames": [
+                "Choti Elaichi",
+                "Hari Elaichi",
+                "Hasiru Elakki"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230677/New%20Ingredients%20UI-%20Images/Image-5_r18xj3.png"
+        },
+        {
+            "displayName": "Licious Chicken Keema",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230675/New%20Ingredients%20UI-%20Images/image_26_fs5qqf.png"
+        },
+        {
+            "displayName": "Amaranth seeds",
+            "alternateNames": [
+                "Rajgira",
+                "Ramdana",
+                "Dantina Beeja",
+                "Rajagiri Soppu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230683/New%20Ingredients%20UI-%20Images/Rectangle_1283_ferkt2.png"
+        },
+        {
+            "displayName": "Chicken - Biryani Cut",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230686/New%20Ingredients%20UI-%20Images/Rectangle_1315_io5oen.png"
+        },
+        {
+            "displayName": "new ingredient",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Chicken - Drumsticks",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230687/New%20Ingredients%20UI-%20Images/Rectangle_1319_sdxnzy.png"
+        },
+        {
+            "displayName": "Pasta seasoning",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230679/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_8_jcpumk.png"
+        },
+        {
+            "displayName": "Spring Onion Whites",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230669/New%20Ingredients%20UI-%20Images/Rectangle_1403_l9qzrz.png"
+        },
+        {
+            "displayName": "Vanilla Essence",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230674/New%20Ingredients%20UI-%20Images/Rectangle_1410_sa22w4.png"
+        },
+        {
+            "displayName": "Bread",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230684/New%20Ingredients%20UI-%20Images/Rectangle_1296_v90gpd.png"
+        },
+        {
+            "displayName": "Wheat Flour",
+            "alternateNames": [
+                "Gehu Ka Aata",
+                "Godhi Hittu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230674/New%20Ingredients%20UI-%20Images/Rectangle_1412_cgccoo.png"
+        },
+        {
+            "displayName": "Chicken Keema",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230675/New%20Ingredients%20UI-%20Images/image_26_fs5qqf.png"
+        },
+        {
+            "displayName": "Roasted Suji",
+            "alternateNames": [
+                "Bhuna Sooji",
+                "Hurida Rava"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230680/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_17_otzzh4.png"
+        },
+        {
+            "displayName": "Cheese Cube",
+            "alternateNames": [
+                "Cheese Block"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230687/New%20Ingredients%20UI-%20Images/Rectangle_1321_n3zs8d.png"
+        },
+        {
+            "displayName": "Sev",
+            "alternateNames": [
+                "Ompudi"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230681/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_22_bhj2m5.png"
+        },
+        {
+            "displayName": "Soaked Cashews",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230668/New%20Ingredients%20UI-%20Images/Rectangle_1399_kkz8wz.png"
+        },
+        {
+            "displayName": "White Pepper",
+            "alternateNames": [
+                "Safed Mirch",
+                "Bili Kalu Menasu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230675/New%20Ingredients%20UI-%20Images/Rectangle_1413_byetzk.png"
+        },
+        {
+            "displayName": "White Sesame Seeds",
+            "alternateNames": [
+                "Safed Til",
+                "Bili Ellu Bijagalu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230677/New%20Ingredients%20UI-%20Images/image_40_khqgfo.png"
+        },
+        {
+            "displayName": "Cheese Slice",
+            "alternateNames": [
+                "Processed Cheese Slice"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230686/New%20Ingredients%20UI-%20Images/Rectangle_1313_as1ro5.png"
+        },
+        {
+            "displayName": "Chilli Oil",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230687/New%20Ingredients%20UI-%20Images/Rectangle_1322_ltbmmx.png"
+        },
+        {
+            "displayName": "Curd",
+            "alternateNames": [
+                "Dahi",
+                "Mosaru"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230689/New%20Ingredients%20UI-%20Images/Rectangle_1336_s8azwk.png"
+        },
+        {
+            "displayName": "Dates",
+            "alternateNames": [
+                "Khajur"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230689/New%20Ingredients%20UI-%20Images/Rectangle_1338_vkat5m.png"
+        },
+        {
+            "displayName": "Masoor Dal- Split",
+            "alternateNames": [
+                "Orange Lentils-Split"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230669/New%20Ingredients%20UI-%20Images/Rectangle_1364_rz9k4u.png"
+        },
+        {
+            "displayName": "Oregano Seasoning",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230671/New%20Ingredients%20UI-%20Images/Rectangle_1374_ir999r.png"
+        },
+        {
+            "displayName": "Peanut Butter",
+            "alternateNames": [
+                "Moongfali Ka Makkhan",
+                "Kadalekayi Benne"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230671/New%20Ingredients%20UI-%20Images/Rectangle_1381_lnioe7.png"
+        },
+        {
+            "displayName": "Pineapple",
+            "alternateNames": [
+                "Ananas"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230672/New%20Ingredients%20UI-%20Images/Rectangle_1383_xcwsi5.png"
+        },
+        {
+            "displayName": "Drumstick",
+            "alternateNames": [
+                "Moringa",
+                "Nuggekayi"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230667/New%20Ingredients%20UI-%20Images/Rectangle_1351_owfkis.png"
+        },
+        {
+            "displayName": "Cut Brinjal",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1670230376/Dahi%20Baigan/images-removebg-preview_dkod3n.png"
+        },
+        {
+            "displayName": "Medium Poha",
+            "alternateNames": [
+                "Medium Avalakki",
+                "Chira"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230669/New%20Ingredients%20UI-%20Images/Rectangle_1365_y8porl.png"
+        },
+        {
+            "displayName": "Green Cardamom Powder",
+            "alternateNames": [
+                "Elaichi Powder",
+                "Elakki Pudi"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230667/New%20Ingredients%20UI-%20Images/Rectangle_1353_qx9grc.png"
+        },
+        {
+            "displayName": "Daliya",
+            "alternateNames": [
+                "Broken Wheat",
+                "Godhi Tari"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230680/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_13_xrbmny.png"
+        },
+        {
+            "displayName": "Jaggery",
+            "alternateNames": [
+                "Gur",
+                "Bella"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230668/New%20Ingredients%20UI-%20Images/Rectangle_1359_nfwc1l.png"
+        },
+        {
+            "displayName": "Roasted Salted Peanuts",
+            "alternateNames": [
+                "Bhuna Namkeen Moongfali"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230678/New%20Ingredients%20UI-%20Images/Image-10_uokegk.png"
+        },
+        {
+            "displayName": "Salt",
+            "alternateNames": [
+                "Namak",
+                "Uppu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230680/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_15_ivpvxw.png"
+        },
+        {
+            "displayName": "Tamarind Paste",
+            "alternateNames": [
+                "Imli Paste",
+                "Hunasehannu Paste"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663238484/New%20Ingredients%20UI-%20Images/Rectangle_1415_roxbzc.png"
+        },
+        {
+            "displayName": "Basa - Steak Cut",
+            "alternateNames": [
+                "Panga Fish"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230683/New%20Ingredients%20UI-%20Images/Rectangle_1288_e85zds.png"
+        },
+        {
+            "displayName": "Chaat Masala",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230675/New%20Ingredients%20UI-%20Images/image_25_gcj1er.png"
+        },
+        {
+            "displayName": "Moong Dal Sprouts",
+            "alternateNames": [
+                "Green Gram Beans- Sprouts",
+                "Molake Hesarkaalu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230671/New%20Ingredients%20UI-%20Images/Rectangle_1378_esl0qb.png"
+        },
+        {
+            "displayName": "Chia Seeds",
+            "alternateNames": [
+                "Kama Kasturi"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230687/New%20Ingredients%20UI-%20Images/Rectangle_1323_m4jpgk.png"
+        },
+        {
+            "displayName": "Peeled Banana",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230672/New%20Ingredients%20UI-%20Images/Rectangle_1382_vz0nyp.png"
+        },
+        {
+            "displayName": "Ripe Frozen Bananas",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230680/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_18_x7igvi.png"
+        },
+        {
+            "displayName": "Coconut Milk",
+            "alternateNames": [
+                "Nariyal Tel",
+                "Tengina Halu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230688/New%20Ingredients%20UI-%20Images/Rectangle_1329_zy0e8b.png"
+        },
+        {
+            "displayName": "Jeera",
+            "alternateNames": [
+                "Cumin",
+                "Jeerige"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230668/New%20Ingredients%20UI-%20Images/Rectangle_1360_acdqzf.png"
+        },
+        {
+            "displayName": "Muesli",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230678/New%20Ingredients%20UI-%20Images/Image-7_zf9lf0.png"
+        },
+        {
+            "displayName": "Thai Curry Paste",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230674/New%20Ingredients%20UI-%20Images/Rectangle_1407_ogojti.png"
+        },
+        {
+            "displayName": "Chicken Sausages",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230687/New%20Ingredients%20UI-%20Images/Rectangle_1320_k86awe.png"
+        },
+        {
+            "displayName": "Lemon",
+            "alternateNames": [
+                "Nimbu",
+                "Nimbehannu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230679/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_4_tsqvov.png"
+        },
+        {
+            "displayName": "Papad",
+            "alternateNames": [
+                "Papadam"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230671/New%20Ingredients%20UI-%20Images/Rectangle_1377_fmwyfi.png"
+        },
+        {
+            "displayName": "Quinoa",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230675/New%20Ingredients%20UI-%20Images/image_28_zwmqov.png"
+        },
+        {
+            "displayName": "Schezwan Chutney",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230673/New%20Ingredients%20UI-%20Images/Rectangle_1397_me3sfu.png"
+        },
+        {
+            "displayName": "Shahi Paneer Masala",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230678/New%20Ingredients%20UI-%20Images/Image-11_lfuxz0.png"
+        },
+        {
+            "displayName": "Soy Milk",
+            "alternateNames": [
+                "Soya Bean Milk"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230669/New%20Ingredients%20UI-%20Images/Rectangle_1401_qdhmfp.png"
+        },
+        {
+            "displayName": "Iceberg Lettuce",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230668/New%20Ingredients%20UI-%20Images/Rectangle_1363_hdanqe.png"
+        },
+        {
+            "displayName": "Egg",
+            "alternateNames": [
+                "Anda",
+                "Motte"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230677/New%20Ingredients%20UI-%20Images/Image-4_whsbr4.png"
+        },
+        {
+            "displayName": "Thick Poha",
+            "alternateNames": [
+                "Gatti Avalakki"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230681/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_23_m0dv0u.png"
+        },
+        {
+            "displayName": "Chilli Flakes",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230688/New%20Ingredients%20UI-%20Images/Rectangle_1330_ql72d5.png"
+        },
+        {
+            "displayName": "Cream",
+            "alternateNames": [
+                "Malai",
+                "Kene"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230688/New%20Ingredients%20UI-%20Images/Rectangle_1335_fl1hve.png"
+        },
+        {
+            "displayName": "Olives- Sliced",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230670/New%20Ingredients%20UI-%20Images/Rectangle_1373_psop05.png"
+        },
+        {
+            "displayName": "Raw Mango",
+            "alternateNames": [
+                "Kachchi Keri",
+                "Kachcha Aam",
+                "Hasi Mavu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230672/New%20Ingredients%20UI-%20Images/Rectangle_1388_khiuwd.png"
+        },
+        {
+            "displayName": "Spaghetti",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230676/New%20Ingredients%20UI-%20Images/image_37_pzmhvf.png"
+        },
+        {
+            "displayName": "Grated Coconut",
+            "alternateNames": [
+                "Nariyal Burada",
+                "Turida Tenginakayi"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230668/New%20Ingredients%20UI-%20Images/Rectangle_1361_o3p0kk.png"
+        },
+        {
+            "displayName": "Cocoa Powder",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230688/New%20Ingredients%20UI-%20Images/Rectangle_1328_an5g4x.png"
+        },
+        {
+            "displayName": "Coconut Oil",
+            "alternateNames": [
+                "Nariyal Doodh",
+                "Tengina Enne"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230688/New%20Ingredients%20UI-%20Images/Rectangle_1331_uoso5u.png"
+        },
+        {
+            "displayName": "Ajwain",
+            "alternateNames": [
+                "Carom Seeds",
+                "Oma"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230682/New%20Ingredients%20UI-%20Images/Rectangle_1281_usti3b.png"
+        },
+        {
+            "displayName": "Methi Leaves",
+            "alternateNames": [
+                "Fresh Fenugreek Leaves"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230670/New%20Ingredients%20UI-%20Images/Rectangle_1366_w5xvxg.png"
+        },
+        {
+            "displayName": "Orange",
+            "alternateNames": [
+                "Santra",
+                "Kittale"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230676/New%20Ingredients%20UI-%20Images/image_33_iungfa.png"
+        },
+        {
+            "displayName": "Roasted Vermicelli",
+            "alternateNames": [
+                "Bhuna Sevai",
+                "Hurida Shavige"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230673/New%20Ingredients%20UI-%20Images/Rectangle_1394_dgugad.png"
+        },
+        {
+            "displayName": "Washed Grapes",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1670855758/Black%20Grapes%20Sorbet/img_4648-removebg-preview_do43e1.png"
+        },
+        {
+            "displayName": "Peas",
+            "alternateNames": [
+                "Matar",
+                "Batani",
+                "Vatana"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230679/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_10_xlrmu1.png"
+        },
+        {
+            "displayName": "Boiled Noodles",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Broccoli",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230684/New%20Ingredients%20UI-%20Images/Rectangle_1298_ocsnv6.png"
+        },
+        {
+            "displayName": "Cooked Minced Meat",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "French Beans",
+            "alternateNames": [
+                "Phaliya"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230689/New%20Ingredients%20UI-%20Images/Rectangle_1344_p5tcfs.png"
+        },
+        {
+            "displayName": "Minced Mutton",
+            "alternateNames": [
+                "Mutton Keema"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1669975385/Asian%20Noodles%20/Screenshot_2021-06-03_at_11_11_35_PM-removebg-preview_t3svem.png"
+        },
+        {
+            "displayName": "Ghee",
+            "alternateNames": [
+                "Clarified Butter",
+                "Tuppa"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230667/New%20Ingredients%20UI-%20Images/Rectangle_1348_pzwo9z.png"
+        },
+        {
+            "displayName": "Prawns",
+            "alternateNames": [
+                "Jheenge",
+                "Sigadi"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230680/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_14_dvmnyk.png"
+        },
+        {
+            "displayName": "Soaked Rice",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1670589075/New%20Ingredients%20UI-%20Images/5616-removebg-preview_wtxudm.png"
+        },
+        {
+            "displayName": "Boiled Chickpea with water",
+            "alternateNames": [
+                "Boiled Kabuli Chana",
+                "Boiled Chole",
+                "Kabuli Kadale"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1670235166/New%20Ingredients%20UI-%20Images/kabuli-chana-_21_-1-188665-removebg-preview_kpwyx4.png"
+        },
+        {
+            "displayName": "Chickpea",
+            "alternateNames": [
+                "Kabuli Chana",
+                "Chole"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1670235095/New%20Ingredients%20UI-%20Images/png-clipart-dal-chickpea-chana-masala-seed-almond-soup-food-removebg-preview_nywhb2.png"
+        },
+        {
+            "displayName": "Black Grapes",
+            "alternateNames": [
+                "Kaala Angoor",
+                "Kappu Draksi"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1670831907/Black%20Grapes%20Sorbet/untitled-500x500-removebg-preview_mt5aiu.png"
+        },
+        {
+            "displayName": "Cut Lauki",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1670580991/New%20Ingredients%20UI-%20Images/Recipes_using_chopped_bottle_gourd__doodhi-removebg-preview_ch7xsz.png"
+        },
+        {
+            "displayName": "new ingredient",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Groundnut Oil",
+            "alternateNames": [
+                "Peanut Oil",
+                "Moongfali Ka Tel",
+                "Kadalekayi Enne"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1665215429/New%20Ingredients%20UI-%20Images/images-removebg-preview_1_royj8r.png"
+        },
+        {
+            "displayName": "Washed Chickpea",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1670236478/New%20Ingredients%20UI-%20Images/How-to-Cook-Chickpeas-Recipe-1-1200-removebg-preview_maujxd.png"
+        },
+        {
+            "displayName": "Mustard Oil",
+            "alternateNames": [
+                "Sarso Ka Tel",
+                "Saasive Enne"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1669387718/New%20Ingredients%20UI-%20Images/mustard-oil-flower-over-white-background-57560133-removebg-preview_qltztl.png"
+        },
+        {
+            "displayName": "Roasted Sesame Oil",
+            "alternateNames": [
+                "Bhune Til Ka Tel",
+                "Hurida Sasiveya Enne"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230673/New%20Ingredients%20UI-%20Images/Rectangle_1393_db1rxy.png"
+        },
+        {
+            "displayName": "Rajma Masala",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678784488/New%20Ingredients%20UI-%20Images/Rajma_Masala_200x150_Output_urrgem.png"
+        },
+        {
+            "displayName": "Refined Oil",
+            "alternateNames": [
+                "Vegetable Oil"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230673/New%20Ingredients%20UI-%20Images/Rectangle_1391_cillro.png"
+        },
+        {
+            "displayName": "Black Olives- Sliced",
+            "alternateNames": [
+                "Kaala Jaitoon"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1671087605/New%20Ingredients%20UI-%20Images/black-olives-fruits-slices-isolated-260nw-1628370007-removebg-preview_xqq9p9.png"
+        },
+        {
+            "displayName": "Coriander Leaves",
+            "alternateNames": [
+                "Dhaniya Patta",
+                "Kottambari Soppu"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230689/New%20Ingredients%20UI-%20Images/Rectangle_1340_p9ukzt.png"
+        },
+        {
+            "displayName": "Ginger Garlic Paste",
+            "alternateNames": [
+                "Adrak Lehsoon Paste",
+                "Shunti Bellulli Paste"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663241527/New%20Ingredients%20UI-%20Images/Rectangle_1418_hbslst.png"
+        },
+        {
+            "displayName": "new ingredient",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Peeled Carrot",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1670924133/New%20Ingredients%20UI-%20Images/carrot-paratha-recipe01-removebg-preview_gzqq8a.png"
+        },
+        {
+            "displayName": "Khowa",
+            "alternateNames": [
+                "Khoya",
+                "Mawa"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678784488/New%20Ingredients%20UI-%20Images/khova_200x150_Output_uqis0m.png"
+        },
+        {
+            "displayName": "Jayesh + vivek",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Soya Chunks",
+            "alternateNames": [
+                "Soya Bean Chunks"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1670575669/New%20Ingredients%20UI-%20Images/images-removebg-preview_1_zyzjdf.png"
+        },
+        {
+            "displayName": "new ingredient",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Sliced Orange",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678784487/New%20Ingredients%20UI-%20Images/Sliced_orange_200x150_Output_yvpd8e.png"
+        },
+        {
+            "displayName": "Cut Beetroot",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1671265687/New%20Ingredients%20UI-%20Images/Screenshot_2022-12-17_135607-removebg-preview_plve1v.png"
+        },
+        {
+            "displayName": "Cut Parval",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1670580831/New%20Ingredients%20UI-%20Images/slicedparval-removebg-preview_gssder.png"
+        },
+        {
+            "displayName": "Gongura",
+            "alternateNames": [
+                "Sorrel"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1670652247/Mong%20Dal%20with%20Gongura/20000753_9-fresho-gongura-leavespulicha-cleaned-without-roots-removebg-preview_owsqie.png"
+        },
+        {
+            "displayName": "new ingredient",
+            "alternateNames": [],
+            "image": ""
+        },
+        {
+            "displayName": "Pomace Olive Oil",
+            "alternateNames": [
+                "Jaithoon Ka Tel"
+            ],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230670/New%20Ingredients%20UI-%20Images/Rectangle_1372_xrnwkz.png"
+        },
+        {
+            "displayName": "Soaked Dal",
+            "alternateNames": [],
+            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1670669077/Mong%20Dal%20with%20Gongura/Moong-Dal-Soaked-in-Water-removebg-preview_iee6bg.png"
+        }
+    ]
+}
