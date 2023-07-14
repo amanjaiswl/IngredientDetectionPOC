@@ -7,36 +7,45 @@
     <h1>Results</h1>
     <!-- <p>Detected objects: {{ results }}</p> -->
 
-    <h2>Detected ingredients:</h2>
-    <ul>
-        {% for ingredient in ingredients %}
-            <li>
-                {{ ingredient.displayName }}
-                <img src="{{ ingredient.image }}" alt="{{ ingredient.displayName }}">
-            </li>
-        {% endfor %}
-    </ul>
-
-    <!-- <h2>Recipes for each detected ingredient:</h2>
-    {% for ingredient_name, recipes in ingredient_recipes.items() %}
-        <h3>{{ ingredient_name }}:</h3>
+    {% if ingredients %}
+        <h2>Detected ingredients:</h2>
         <ul>
-            {% for recipe in recipes %}
-                <li>{{ recipe }}</li>
+            {% for ingredient in ingredients %}
+                <li>
+                    {{ ingredient.displayName }}
+                    <img src="{{ ingredient.image }}" alt="{{ ingredient.displayName }}">
+                </li>
             {% endfor %}
         </ul>
-    {% endfor %} -->
+    {% else %}
+        <h2>Sorry, No ingredient detected.</h2>
+    {% endif %}
 
-    <h2>3 recipes which can be made with the detected ingredients:</h2>
-    <ul>
-        {% for recipe in top_recipes %}
-            <li>
-                <h3>{{ recipe[0] }} </h3>
-                <img src="{{ recipe[1]["image_url"] }}" alt="{{ recipe[0] }}">
-            </li>
+    <!-- {% if ingredient_recipes %}
+        <h2>Recipes for each detected ingredient:</h2>
+        {% for ingredient_name, recipes in ingredient_recipes.items() %}
+            <h3>{{ ingredient_name }}:</h3>
+            <ul>
+                {% for recipe in recipes %}
+                    <li>{{ recipe }}</li>
+                {% endfor %}
+            </ul>
         {% endfor %}
-    </ul>
+    {% endif %} -->
 
+    {% if top_recipes %}
+        <h2>Top 3 recipes which can be made with the detected ingredients:</h2>
+        <ul>
+            {% for recipe in top_recipes %}
+                <li>
+                    <h3>{{ recipe[0] }} </h3>
+                  <!-- (count: {{ recipe[1]["count"] }}) -->
+                    <img src="{{ recipe[1]["image_url"] }}" alt="{{ recipe[0] }}">
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    
     <a href="/">Back</a>
 </body>
 </html>
