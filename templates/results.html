@@ -5,8 +5,9 @@
 </head>
 <body>
     <h1>Results</h1>
-    <p>Detected objects: {{ results }}</p>
-    <p>Objects detected from Ingredient List:</p>
+    <!-- <p>Detected objects: {{ results }}</p> -->
+
+    <h2>Detected ingredients:</h2>
     <ul>
         {% for ingredient in ingredients %}
             <li>
@@ -15,6 +16,27 @@
             </li>
         {% endfor %}
     </ul>
+
+    <!-- <h2>Recipes for each detected ingredient:</h2>
+    {% for ingredient_name, recipes in ingredient_recipes.items() %}
+        <h3>{{ ingredient_name }}:</h3>
+        <ul>
+            {% for recipe in recipes %}
+                <li>{{ recipe }}</li>
+            {% endfor %}
+        </ul>
+    {% endfor %} -->
+
+    <h2>3 recipes which can be made with the detected ingredients:</h2>
+    <ul>
+        {% for recipe in top_recipes %}
+            <li>
+                <h3>{{ recipe[0] }} </h3>
+                <img src="{{ recipe[1]["image_url"] }}" alt="{{ recipe[0] }}">
+            </li>
+        {% endfor %}
+    </ul>
+
     <a href="/">Back</a>
 </body>
 </html>

@@ -72,6 +72,20 @@ def upload_file():
             
 
 @app.route('/results')
+# def results():
+#     detected_objects = set(session.get('results', []))
+
+#     # Load the ingredient list from the JSON file
+#     with open('output.json') as f:
+#         ingredient_list = json.load(f)["Ingredients_DB"]
+
+#     # Check which detected objects are in the ingredient list
+#     detected_ingredients = []
+#     for ingredient in ingredient_list:
+#         if ingredient["displayName"].lower() in detected_objects or any(name.lower() in detected_objects for name in ingredient["alternateNames"]):
+#             detected_ingredients.append(ingredient)
+
+#     return render_template('results.html', results=detected_objects, ingredients=detected_ingredients)
 def results():
     detected_objects = set(session.get('results', []))
 
@@ -79,13 +93,33 @@ def results():
     with open('output.json') as f:
         ingredient_list = json.load(f)["Ingredients_DB"]
 
+    # Load the recipes from the JSON file
+    with open('output2.json') as f:
+        recipe_list = json.load(f)["Recipe_DB"]
+
     # Check which detected objects are in the ingredient list
     detected_ingredients = []
+    ingredient_recipes = {}
     for ingredient in ingredient_list:
         if ingredient["displayName"].lower() in detected_objects or any(name.lower() in detected_objects for name in ingredient["alternateNames"]):
             detected_ingredients.append(ingredient)
+            ingredient_recipes[ingredient["displayName"]] = []
 
-    return render_template('results.html', results=detected_objects, ingredients=detected_ingredients)
+    # Check which recipes can be made with the detected ingredients
+    recipe_counts = {}
+    for recipe in recipe_list:
+        for ingredient in detected_ingredients:
+            if ingredient["_id"] in recipe["ingredients"]:
+                ingredient_recipes[ingredient["displayName"]].append(recipe["Recipe_Name"])
+                if recipe["Recipe_Name"] in recipe_counts:
+                    recipe_counts[recipe["Recipe_Name"]]["count"] += 1
+                else:
+                    recipe_counts[recipe["Recipe_Name"]] = {"count": 1, "image_url": recipe["image_url"]}
+
+    # Sort the recipes by count and take the top 5
+    top_recipes = sorted(recipe_counts.items(), key=lambda x: x[1]["count"], reverse=True)[:3]
+
+    return render_template('results.html', results=detected_objects, ingredients=detected_ingredients, ingredient_recipes=ingredient_recipes, top_recipes=top_recipes)
 
 
 
