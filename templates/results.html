@@ -2,50 +2,58 @@
 <html>
 <head>
     <title>Results</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Limit the maximum width of the images to 100% of their container */
+        .card-img-top {
+            max-width: 100%;
+            height: auto;
+        }
+        /* Set the font size to a comfortable reading level */
+        body {
+            font-size: 1.2rem;
+        }
+    </style>
 </head>
-<body>
-    <h1>Results</h1>
-    <!-- <p>Detected objects: {{ results }}</p> -->
-
+<body class="container py-5">
+    <h1 class="mb-5 text-center">Results</h1>
+    
     {% if ingredients %}
         <h2>Detected ingredients:</h2>
-        <ul>
+        <div class="row g-4">
             {% for ingredient in ingredients %}
-                <li>
-                    {{ ingredient.displayName }}
-                    <img src="{{ ingredient.image }}" alt="{{ ingredient.displayName }}">
-                </li>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="{{ ingredient.image }}" class="card-img-top" alt="{{ ingredient.displayName }}">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ ingredient.displayName }}</h5>
+                        </div>
+                    </div>
+                </div>
             {% endfor %}
-        </ul>
+        </div>
     {% else %}
-        <h2>Sorry, No ingredient detected.</h2>
-    {% endif %}
-
-    <!-- {% if ingredient_recipes %}
-        <h2>Recipes for each detected ingredient:</h2>
-        {% for ingredient_name, recipes in ingredient_recipes.items() %}
-            <h3>{{ ingredient_name }}:</h3>
-            <ul>
-                {% for recipe in recipes %}
-                    <li>{{ recipe }}</li>
-                {% endfor %}
-            </ul>
-        {% endfor %}
-    {% endif %} -->
-
-    {% if top_recipes %}
-        <h2>Top 3 recipes which can be made with the detected ingredients:</h2>
-        <ul>
-            {% for recipe in top_recipes %}
-                <li>
-                    <h3>{{ recipe[0] }} </h3>
-                  <!-- (count: {{ recipe[1]["count"] }}) -->
-                    <img src="{{ recipe[1]["image_url"] }}" alt="{{ recipe[0] }}">
-                </li>
-            {% endfor %}
-        </ul>
+        <h2 class="text-center">Sorry, No ingredient detected.</h2>
     {% endif %}
     
-    <a href="/">Back</a>
+    {% if top_recipes %}
+        <h2 class="mt-5">Top 3 recipes which can be made with the detected ingredients:</h2>
+        <div class="row g-4">
+            {% for recipe in top_recipes %}
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="{{ recipe[1]['image_url'] }}" class="card-img-top" alt="{{ recipe[0] }}">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ recipe[0] }}</h5>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+    
+    <a href="/" class="btn btn-primary mt-5 d-block mx-auto">Back</a>
 </body>
 </html>

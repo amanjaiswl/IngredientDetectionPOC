@@ -2,37 +2,48 @@
 <html>
 <head>
     <title>Image Upload</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta1/css/bootstrap.min.css" rel="stylesheet">
     <style>
         /* This will hide the loading animation by default. */
         #loading {
             display: none;
         }
         /* Set the dimensions of the video element */
-        #camera-stream {
-            width: 100%;
-            max-width: 600px;
+        #camera-stream,
+        #image-preview {
+            max-width: 100%;
             height: auto;
         }
-        /* Set the dimensions of the image preview */
-        #image-preview {
-            width: 100%;
-            max-width: 600px;
-            height: auto;
+        /* Make the buttons larger */
+        .btn {
+            font-size: 1.2rem;
+            padding: 0.6rem 1.2rem;
+        }
+        /* Control the size of the loading animation */
+        @media (max-width: 576px) {
+            #loading {
+                width: 50%;
+            }
         }
     </style>
 </head>
-<body>
-    <h1>Upload an image</h1>
-    <button id="file-upload-btn">Choose File</button> or
-    <button id="start-camera">Capture from Camera</button>
-    <video id="camera-stream" hidden autoplay></video>
-    <button id="capture-btn" hidden>Capture</button>
-    <img id="image-preview" hidden>
-    <form method="post" enctype="multipart/form-data" id="upload-form" hidden>
+<body class="container py-5">
+    <h1 class="mb-5 text-center">Upload an image</h1>
+    <div class="d-flex justify-content-center mb-5">
+        <button id="file-upload-btn" class="btn btn-primary me-4">Choose File</button>
+        <button id="start-camera" class="btn btn-secondary">Capture from Camera</button>
+    </div>
+    <video id="camera-stream" class="mx-auto d-block" hidden autoplay></video>
+    <button id="capture-btn" class="btn btn-primary mx-auto d-block" hidden>Capture</button>
+    <img id="image-preview" class="mx-auto d-block" hidden>
+    <form method="post" enctype="multipart/form-data" id="upload-form" class="d-flex justify-content-center mt-5" hidden>
         <input type="file" name="file" id="file" hidden>
-        <button type="submit">Upload</button>
+        <button type="submit" class="btn btn-success">Upload</button>
     </form>
-    <img id="loading" src="/static/loading.gif">
+    <img id="loading" class="mx-auto d-block" src="/static/loading.gif">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         const fileUploadButton = document.getElementById('file-upload-btn');
@@ -56,11 +67,12 @@
                 uploadForm.hidden = false;
                 startCameraButton.hidden = false;
                 cameraStream.hidden = true;
+                captureButton.hidden = true;  // Hide the capture button when a file is selected
             }
         });
 
         startCameraButton.addEventListener('click', async () => {
-            const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+            const stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment' } });
             cameraStream.srcObject = stream;
             cameraStream.hidden = false;
             imagePreview.hidden = true;
