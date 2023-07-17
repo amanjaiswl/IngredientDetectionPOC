@@ -27,6 +27,12 @@
                 width: 50%;
             }
         }
+        /* Position the mute button at the bottom right corner of the page */
+        #mute-button {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+        }
     </style>
 </head>
 <body class="container py-5">
@@ -43,9 +49,32 @@
         <button type="submit" class="btn btn-success">Upload</button>
     </form>
     <img id="loading" class="mx-auto d-block" src="/static/loading.gif">
+    <button id="mute-button" class="btn btn-danger" hidden>Mute</button>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
+        const audioFiles = ['mp3.mp3', 'oldtown.mp3', 'thatway.mp3', 'rockthaparty.mp3', 'obetaji.mp3'];
+        let audioPlayer;
+
+        // When the form is submitted, show the loading animation and play a random audio.
+        $("#upload-form").submit(function() {
+            $("#loading").show();
+            // If there is a previous audio playing, stop it
+            if (audioPlayer) {
+                audioPlayer.pause();
+            }
+            const randomAudioFile = audioFiles[Math.floor(Math.random() * audioFiles.length)];
+            audioPlayer = new Audio(`/static/${randomAudioFile}`);
+            audioPlayer.play();
+            document.getElementById('mute-button').hidden = false;
+        });
+
+        // When the mute button is clicked, stop the audio.
+        document.getElementById('mute-button').addEventListener('click', function() {
+            audioPlayer.pause();
+            this.hidden = true;
+        });
+
         const fileUploadButton = document.getElementById('file-upload-btn');
         const startCameraButton = document.getElementById('start-camera');
         const cameraStream = document.getElementById('camera-stream');
@@ -100,11 +129,6 @@
                 startCameraButton.hidden = false;
             }, 'image/jpeg');
             captureButton.hidden = true;
-        });
-
-        // When the form is submitted, show the loading animation.
-        $("#upload-form").submit(function() {
-            $("#loading").show();
         });
     </script>
 </body>

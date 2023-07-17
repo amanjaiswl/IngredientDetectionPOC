@@ -1,0 +1,112 @@
+index.html:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Upload</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* This will hide the loading animation by default. */
+        #loading {
+            display: none;
+        }
+        /* Set the dimensions of the video element */
+        #camera-stream,
+        #image-preview {
+            max-width: 100%;
+            height: auto;
+        }
+        /* Make the buttons larger */
+        .btn {
+            font-size: 1.2rem;
+            padding: 0.6rem 1.2rem;
+        }
+        /* Control the size of the loading animation */
+        @media (max-width: 576px) {
+            #loading {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+<body class="container py-5">
+    <h1 class="mb-5 text-center">Upload an image</h1>
+    <div class="d-flex justify-content-center mb-5">
+        <button id="file-upload-btn" class="btn btn-primary me-4">Choose File</button>
+        <button id="start-camera" class="btn btn-secondary">Capture from Camera</button>
+    </div>
+    <video id="camera-stream" class="mx-auto d-block" hidden autoplay></video>
+    <button id="capture-btn" class="btn btn-primary mx-auto d-block" hidden>Capture</button>
+    <img id="image-preview" class="mx-auto d-block" hidden>
+    <form method="post" enctype="multipart/form-data" id="upload-form" class="d-flex justify-content-center mt-5" hidden>
+        <input type="file" name="file" id="file" hidden>
+        <button type="submit" class="btn btn-success">Upload</button>
+    </form>
+    <img id="loading" class="mx-auto d-block" src="/static/loading.gif">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        const fileUploadButton = document.getElementById('file-upload-btn');
+        const startCameraButton = document.getElementById('start-camera');
+        const cameraStream = document.getElementById('camera-stream');
+        const captureButton = document.getElementById('capture-btn');
+        const imagePreview = document.getElementById('image-preview');
+        const uploadForm = document.getElementById('upload-form');
+        const fileInput = document.getElementById('file');
+
+        fileUploadButton.addEventListener('click', () => {
+            fileInput.click();
+        });
+
+        fileInput.addEventListener('change', () => {
+            const file = fileInput.files[0];
+            if (file) {
+                const url = URL.createObjectURL(file);
+                imagePreview.src = url;
+                imagePreview.hidden = false;
+                uploadForm.hidden = false;
+                startCameraButton.hidden = false;
+                cameraStream.hidden = true;
+                captureButton.hidden = true;  // Hide the capture button when a file is selected
+            }
+        });
+
+        startCameraButton.addEventListener('click', async () => {
+            const stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment' } });
+            cameraStream.srcObject = stream;
+            cameraStream.hidden = false;
+            imagePreview.hidden = true;
+            startCameraButton.hidden = true;
+            captureButton.hidden = false;
+        });
+
+        captureButton.addEventListener('click', () => {
+            const canvas = document.createElement('canvas');
+            canvas.width = cameraStream.videoWidth;
+            canvas.height = cameraStream.videoHeight;
+            const context = canvas.getContext('2d');
+            context.drawImage(cameraStream, 0, 0);
+            cameraStream.srcObject.getVideoTracks().forEach(track => track.stop());
+            cameraStream.hidden = true;
+            canvas.toBlob(blob => {
+                const file = new File([blob], 'photo.jpg', { type: 'image/jpeg', lastModified: Date.now() });
+                const dataTransfer = new DataTransfer();
+                dataTransfer.items.add(file);
+                fileInput.files = dataTransfer.files;
+                const url = URL.createObjectURL(blob);
+                imagePreview.src = url;
+                imagePreview.hidden = false;
+                uploadForm.hidden = false;
+                startCameraButton.hidden = false;
+            }, 'image/jpeg');
+            captureButton.hidden = true;
+        });
+
+        // When the form is submitted, show the loading animation.
+        $("#upload-form").submit(function() {
+            $("#loading").show();
+        });
+    </script>
+</body>
+</html>

@@ -72,20 +72,6 @@ def upload_file():
             
 
 @app.route('/results')
-# def results():
-#     detected_objects = set(session.get('results', []))
-
-#     # Load the ingredient list from the JSON file
-#     with open('output.json') as f:
-#         ingredient_list = json.load(f)["Ingredients_DB"]
-
-#     # Check which detected objects are in the ingredient list
-#     detected_ingredients = []
-#     for ingredient in ingredient_list:
-#         if ingredient["displayName"].lower() in detected_objects or any(name.lower() in detected_objects for name in ingredient["alternateNames"]):
-#             detected_ingredients.append(ingredient)
-
-#     return render_template('results.html', results=detected_objects, ingredients=detected_ingredients)
 def results():
     detected_objects = set(session.get('results', []))
 
