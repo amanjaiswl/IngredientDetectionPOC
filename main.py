@@ -75,15 +75,12 @@ def upload_file():
 def results():
     detected_objects = set(session.get('results', []))
 
-    # Load the ingredient list from the JSON file
     with open('output.json') as f:
         ingredient_list = json.load(f)["Ingredients_DB"]
 
-    # Load the recipes from the JSON file
     with open('output2.json') as f:
         recipe_list = json.load(f)["Recipe_DB"]
 
-    # Check which detected objects are in the ingredient list
     detected_ingredients = []
     ingredient_recipes = {}
     for ingredient in ingredient_list:
@@ -91,7 +88,6 @@ def results():
             detected_ingredients.append(ingredient)
             ingredient_recipes[ingredient["displayName"]] = []
 
-    # Check which recipes can be made with the detected ingredients
     recipe_counts = {}
     for recipe in recipe_list:
         for ingredient in detected_ingredients:
@@ -102,10 +98,19 @@ def results():
                 else:
                     recipe_counts[recipe["Recipe_Name"]] = {"count": 1, "image_url": recipe["image_url"]}
 
+    # Prioritize recipes that have the detected ingredient(s) in their name
+    for ingredient in detected_ingredients:
+        for recipe in recipe_list:
+            if ingredient["displayName"].lower() in recipe["Recipe_Name"].lower():
+                if recipe["Recipe_Name"] not in recipe_counts:
+                    recipe_counts[recipe["Recipe_Name"]] = {"count": 0, "image_url": recipe["image_url"]}
+                recipe_counts[recipe["Recipe_Name"]]["count"] += 1
+
     # Sort the recipes by count and take the top 5
     top_recipes = sorted(recipe_counts.items(), key=lambda x: x[1]["count"], reverse=True)[:3]
 
     return render_template('results.html', results=detected_objects, ingredients=detected_ingredients, ingredient_recipes=ingredient_recipes, top_recipes=top_recipes)
+
 
 
 
@@ -221,5 +226,3 @@ def process_image(img):
 if __name__ == '__main__':
     # app.run(debug=True)
     app.run(host='0.0.0.0', port=81)
-
-
