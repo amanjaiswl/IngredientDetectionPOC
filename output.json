@@ -81,12 +81,6 @@
             "_id": "e81d785c-6129-43c5-9d88-ce8ec78ca61b"
         },
         {
-            "displayName": "Vegetable Stock",
-            "alternateNames": [],
-            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1637324262/West%20African%20Peanut%20Stew/61sNbNyUFVL._SL1000_-removebg-preview_dws5wo.png",
-            "_id": "2oO6EEq4WQwLtgGYaQdx"
-        },
-        {
             "displayName": "Walnut Kernels",
             "alternateNames": [
                 "Akhrot"
@@ -486,12 +480,6 @@
             "_id": "dbQX8dh0DFZGvwBvs8sw"
         },
         {
-            "displayName": "Liquid Dishwashing Detergent",
-            "alternateNames": [],
-            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1651650664/Deep%20cleaning/istockphoto-172857643-612x612-removebg-preview_jelayk.png",
-            "_id": "aET4qF53DtIBMQEzfq0M"
-        },
-        {
             "displayName": "Methi Muthiya",
             "alternateNames": [],
             "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1686814035/New%20Ingredients%20UI-%20Images/fried-methi-muthia-recipe-1-removebg-preview_spqflf.png",
@@ -599,12 +587,6 @@
             "_id": "n7nLaGcBeHJg54aNs7eb"
         },
         {
-            "displayName": "new ingredient",
-            "alternateNames": [],
-            "image": "",
-            "_id": "fc1ade21-5ef7-49c9-929c-b6326bd5b203"
-        },
-        {
             "displayName": "Processed Amaranth",
             "alternateNames": [],
             "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1675337756/New%20Ingredients%20UI-%20Images/90-removebg-preview_qwhxme.png",
@@ -673,12 +655,6 @@
             "_id": "f348c0c4-af53-4c11-be94-f80d05b8ca82"
         },
         {
-            "displayName": "Hot Water",
-            "alternateNames": [],
-            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230682/New%20Ingredients%20UI-%20Images/parsley-removebg-preview_1_31_tb2ggo.png",
-            "_id": "b60c827d-66cd-4572-865d-bd422eff6cca"
-        },
-        {
             "displayName": "Black Chickpeas",
             "alternateNames": [
                 "Kala Chana",
@@ -737,22 +713,10 @@
             "_id": "c17da734-fe3a-447a-8333-2b984c1b7148"
         },
         {
-            "displayName": "new ingredient",
-            "alternateNames": [],
-            "image": "",
-            "_id": "72708984-67b1-4901-80d5-a1a932fd85bd"
-        },
-        {
             "displayName": "Boiled Chickpeas",
             "alternateNames": [],
             "image": "https://i0.wp.com/www.indicuisine.com/wp-content/uploads/2016/03/boil-black-chickpeas-kala-chana-chaat-recipe.jpg",
             "_id": "063ddacd-5d91-4565-84ea-3aa49c56637b"
-        },
-        {
-            "displayName": "new ingredient",
-            "alternateNames": [],
-            "image": "",
-            "_id": "29e98134-cec1-48b9-9b53-b2736b366b7c"
         },
         {
             "displayName": "Boiled Potatoes",
@@ -844,12 +808,6 @@
             "_id": "0b7b0af7-e84d-4534-a52d-8851723a48bf"
         },
         {
-            "displayName": "new ingredient",
-            "alternateNames": [],
-            "image": "",
-            "_id": "652ea75c-b4d8-4869-a73c-71b277614837"
-        },
-        {
             "displayName": "Star Anise",
             "alternateNames": [
                 "Chakrafool",
@@ -939,14 +897,6 @@
             ],
             "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230671/New%20Ingredients%20UI-%20Images/Rectangle_1376_xr8oxk.png",
             "_id": "THfZ0YVPphUWA5LdRUeb"
-        },
-        {
-            "displayName": "Parchment Paper",
-            "alternateNames": [
-                "Baking Paper"
-            ],
-            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1684390779/New%20Ingredients%20UI-%20Images/71iJxfcwzGL._AC_SL1500_-removebg-preview_urigdc.png",
-            "_id": "f84a0af8-5d13-45a8-ab1e-751a4d69a92a"
         },
         {
             "displayName": "Idli Batter",
@@ -1046,12 +996,6 @@
             ],
             "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230683/New%20Ingredients%20UI-%20Images/Rectangle_1287_qzf2gn.png",
             "_id": "oouospFqrlLARWcB0zT7"
-        },
-        {
-            "displayName": "new ingredient",
-            "alternateNames": [],
-            "image": "",
-            "_id": "f563a52b-d43b-4c6a-ac28-20e21b053ef4"
         },
         {
             "displayName": "Tofu",
@@ -1647,12 +1591,6 @@
             "_id": "WRJ9X2v4C2kykjJMfSEg"
         },
         {
-            "displayName": "Boiled Barley + Water",
-            "alternateNames": [],
-            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1653375155/Barley%20Mushroom%20Risotto/AdobeStock_301315491-removebg-preview_qw6nlm.png",
-            "_id": "XVLej6LJr9n3kQ2S3C1f"
-        },
-        {
             "displayName": "Boiled Quinoa",
             "alternateNames": [],
             "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1632460158/Quinoa%20Rooster%20Salad/boiled_quinoa_xlitnw.jpg",
@@ -1678,18 +1616,6 @@
             ],
             "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230667/New%20Ingredients%20UI-%20Images/Rectangle_1349_gkcnps.png",
             "_id": "sHTx0cIRlAbr23BUBy6H"
-        },
-        {
-            "displayName": "Liquid Dishwashing Detergent",
-            "alternateNames": [],
-            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1651650664/Deep%20cleaning/istockphoto-172857643-612x612-removebg-preview_jelayk.png",
-            "_id": "Zx73y4FQjWLRkJMGakhq"
-        },
-        {
-            "displayName": "new ingredient",
-            "alternateNames": [],
-            "image": "",
-            "_id": "998858c2-76a1-46ed-976d-201d20f644c8"
         },
         {
             "displayName": "Washed Chicken Breast",
@@ -1764,12 +1690,6 @@
             "_id": "jXUEROYXFujoReBDt8S7"
         },
         {
-            "displayName": "Rice Paper",
-            "alternateNames": [],
-            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1668508299/New%20Ingredients%20UI-%20Images/0003758_rice-paper-round-16-cm_340-removebg-preview_iknaa3.png",
-            "_id": "71d19ae7-6533-4c86-9d5d-182dc7374b9f"
-        },
-        {
             "displayName": "Sesame Oil",
             "alternateNames": [
                 "Til Ka Tel",
@@ -1791,12 +1711,6 @@
             "alternateNames": [],
             "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1668584044/New%20Ingredients%20UI-%20Images/kisspng-leek-soup-onion-vegetable-garden-leek-bazaar-fresh-online-vegetables-fruits-amp-gro-5d2382e54cfe33.7254262615626083573154-removebg-preview_cfeahs.png",
             "_id": "b61fadde-e85e-46c6-a295-51add1e34942"
-        },
-        {
-            "displayName": "new ingredient",
-            "alternateNames": [],
-            "image": "",
-            "_id": "63217aa4-43ee-4569-8a10-7139a59ae3e9"
         },
         {
             "displayName": "Boiled Barley & Corn",
@@ -1865,12 +1779,6 @@
             "_id": "pz9SfzkCCjvPH9LxAifo"
         },
         {
-            "displayName": "new ingredient",
-            "alternateNames": [],
-            "image": "",
-            "_id": "426cd690-fcb1-452f-8f48-e330e5948fcb"
-        },
-        {
             "displayName": "Nigella Seeds",
             "alternateNames": [
                 "Kalaunji"
@@ -1897,12 +1805,6 @@
             "alternateNames": [],
             "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1668518610/New%20Ingredients%20UI-%20Images/catch_club_soda_500ml_1-removebg-preview_kliz7a.png",
             "_id": "4ba7e5e5-e7d3-40b3-90aa-d35cb3573bae"
-        },
-        {
-            "displayName": "Pasta water",
-            "alternateNames": [],
-            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1669027581/Aglio%20Olio/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2014__05__20140519-pasta-water-trio-1500x1000-b7a0ec03b1834441987747b1298c68f0-removebg-preview_1_nohlzd.png",
-            "_id": "lvjH98UyoSw607osVXA5"
         },
         {
             "displayName": "Green chilli without seeds",
@@ -2046,14 +1948,6 @@
             ],
             "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230674/New%20Ingredients%20UI-%20Images/Rectangle_1409_uox9ah.png",
             "_id": "VTEjzKIsFM7utlQq9vJS"
-        },
-        {
-            "displayName": "Kewra Water",
-            "alternateNames": [
-                "Kewra Essence"
-            ],
-            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230669/New%20Ingredients%20UI-%20Images/Rectangle_1362_pddijl.png",
-            "_id": "zsevviH9pyb3LznHRVvL"
         },
         {
             "displayName": "Chana Dal",
@@ -2276,12 +2170,6 @@
             "alternateNames": [],
             "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1663230686/New%20Ingredients%20UI-%20Images/Rectangle_1315_io5oen.png",
             "_id": "Jpx8V7sYeCQmvgzKoZet"
-        },
-        {
-            "displayName": "new ingredient",
-            "alternateNames": [],
-            "image": "",
-            "_id": "675176ea-87b4-478c-a533-f5621bda863b"
         },
         {
             "displayName": "Chicken - Drumsticks",
@@ -2832,16 +2720,6 @@
             "_id": "cc62c610-d4da-4bbc-bcde-35717b2ba9e0"
         },
         {
-            "displayName": "Boiled Chickpea with water",
-            "alternateNames": [
-                "Boiled Kabuli Chana",
-                "Boiled Chole",
-                "Kabuli Kadale"
-            ],
-            "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1670235166/New%20Ingredients%20UI-%20Images/kabuli-chana-_21_-1-188665-removebg-preview_kpwyx4.png",
-            "_id": "4e156f34-72af-4826-bd90-6a9ac4ab598a"
-        },
-        {
             "displayName": "Chickpea",
             "alternateNames": [
                 "Kabuli Chana",
@@ -2864,12 +2742,6 @@
             "alternateNames": [],
             "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1670580991/New%20Ingredients%20UI-%20Images/Recipes_using_chopped_bottle_gourd__doodhi-removebg-preview_ch7xsz.png",
             "_id": "703aa8aa-3845-4a7d-bd0a-911e8bb796e9"
-        },
-        {
-            "displayName": "new ingredient",
-            "alternateNames": [],
-            "image": "",
-            "_id": "4c2b2bbe-ae3f-421b-b101-84508fa20c27"
         },
         {
             "displayName": "Groundnut Oil",
@@ -2946,12 +2818,6 @@
             "_id": "wrvwdBSZ87nD93livtWx"
         },
         {
-            "displayName": "new ingredient",
-            "alternateNames": [],
-            "image": "",
-            "_id": "025844b2-bd83-4911-9111-5417680998bd"
-        },
-        {
             "displayName": "Peeled Carrot",
             "alternateNames": [],
             "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1670924133/New%20Ingredients%20UI-%20Images/carrot-paratha-recipe01-removebg-preview_gzqq8a.png",
@@ -2981,12 +2847,6 @@
             "_id": "e5244ae2-27cd-4743-a8ea-4732f55f9644"
         },
         {
-            "displayName": "new ingredient",
-            "alternateNames": [],
-            "image": "",
-            "_id": "0f17d033-609f-4ed8-9551-b55b4d5db8df"
-        },
-        {
             "displayName": "Sliced Orange",
             "alternateNames": [],
             "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1678784487/New%20Ingredients%20UI-%20Images/Sliced_orange_200x150_Output_yvpd8e.png",
@@ -3011,12 +2871,6 @@
             ],
             "image": "https://res.cloudinary.com/dgakjrw8j/image/upload/v1670652247/Mong%20Dal%20with%20Gongura/20000753_9-fresho-gongura-leavespulicha-cleaned-without-roots-removebg-preview_owsqie.png",
             "_id": "01f9036b-0efc-48c8-888f-d241f9df7415"
-        },
-        {
-            "displayName": "new ingredient",
-            "alternateNames": [],
-            "image": "",
-            "_id": "906354ba-0ed0-4ab8-a0d0-b2255559e1e4"
         },
         {
             "displayName": "Pomace Olive Oil",

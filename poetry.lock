@@ -219,6 +219,17 @@ optional = false
 python-versions = ">=3.7"
 
 [[package]]
+name = "fuzzywuzzy"
+version = "0.18.0"
+description = "Fuzzy string matching in python"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+speedup = ["python-levenshtein (>=0.12)"]
+
+[[package]]
 name = "grpcio"
 version = "1.56.0"
 description = "HTTP/2-based RPC framework"
@@ -680,7 +691,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.10.0,<3.11"
-content-hash = "e9670c8b1bc415497bc35150b4af98de7d8efb68bdfa5362d7bd7ffca909dafe"
+content-hash = "14e33da9d6bc7a8802d3809988ee6b48dee1fb15a53a153e7b22a27dc5a1fdcf"
 
 [metadata.files]
 aiohttp = []
@@ -700,6 +711,7 @@ cryptography = []
 debugpy = []
 flask = []
 frozenlist = []
+fuzzywuzzy = []
 grpcio = []
 idna = []
 iso8601 = []

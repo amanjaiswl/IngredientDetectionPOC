@@ -26,7 +26,11 @@
 <body class="container py-5">
     <h1 class="mb-5 text-center">Results</h1>
     <div class="d-flex justify-content-center mb-4">
-        <!-- <button onclick="window.open('https://forms.gle/cFqVfAzqZ4nYnmqs9', '_blank')" class="btn btn-info">Share feedback</button> -->
+    
+{% if all_detected_objects %}
+    <h2>All Detected Objects:</h2>
+    <p>{{ all_detected_objects }}</p>
+{% endif %}
 
     </div>
     {% if ingredients %}
@@ -48,7 +52,7 @@
     {% endif %}
     
     {% if top_recipes %}
-        <h2 class="mt-5">Top 3 recipes which can be made with the detected ingredients:</h2>
+        <h2 class="mt-5">Top recipes which can be made with the detected ingredients:</h2>
         <div class="row g-4">
             {% for recipe in top_recipes %}
                 <div class="col-md-4">

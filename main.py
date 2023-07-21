@@ -1,6 +1,7 @@
 from flask import Flask, request, render_template, redirect, url_for, session
 import io
 import os
+import re
 import json
 import base64
 import requests
@@ -22,6 +23,7 @@ s3 = boto3.client('s3',
 
 @app.route('/', methods=['GET', 'POST'])
 def upload_file():
+    file = None
     if request.method == 'POST':
         if 'file' not in request.files:
             return 'No file part'
@@ -38,10 +40,11 @@ def upload_file():
                 ingredient_list = json.load(f)["Ingredients_DB"]
 
             # Check which detected objects are in the ingredient list
-            detected_ingredients = []
-            for ingredient in ingredient_list:
-                if ingredient["displayName"].lower() in all_results or any(name.lower() in all_results for name in ingredient["alternateNames"]):
-                    detected_ingredients.append(ingredient["displayName"])
+            detected_ingredients = set()
+            for detected_object in all_results:
+                for ingredient in ingredient_list:
+                    if detected_object.lower() in ingredient["displayName"].lower() or any(detected_object.lower() in name.lower() for name in ingredient["alternateNames"]):
+                        detected_ingredients.add(ingredient["displayName"])
 
             # Generate a unique file name
             unique_filename = str(uuid.uuid4())
@@ -56,7 +59,7 @@ def upload_file():
             # Create a JSON file with the results
             results_dict = {
                 "all_detected_objects": list(all_results),
-                "detected_ingredients": detected_ingredients
+                "detected_ingredients": list(detected_ingredients)
             }
             result_json = json.dumps(results_dict)
             result_file = "/tmp/" + unique_filename + '.json'
@@ -81,12 +84,36 @@ def results():
     with open('output2.json') as f:
         recipe_list = json.load(f)["Recipe_DB"]
 
-    detected_ingredients = []
+    detected_ingredients = set()  # use a set instead of a list
     ingredient_recipes = {}
-    for ingredient in ingredient_list:
-        if ingredient["displayName"].lower() in detected_objects or any(name.lower() in detected_objects for name in ingredient["alternateNames"]):
-            detected_ingredients.append(ingredient)
-            ingredient_recipes[ingredient["displayName"]] = []
+    for detected_object in detected_objects:
+        # Skip the 'green' object
+        if detected_object == 'green':
+            continue
+
+        # Special case for 'leaf vegetable'
+        if detected_object == 'leaf vegetable':
+            for ingredient in ingredient_list:
+                if ingredient["displayName"].lower() == 'coriander leaves':
+                    ingredient_tuple = (ingredient["displayName"], ingredient["_id"], tuple(ingredient["alternateNames"]), ingredient["image"])
+                    detected_ingredients.add(ingredient_tuple)
+                    ingredient_recipes[ingredient["displayName"]] = []
+                    break  # Stop looking after finding 'Coriander Leaves'
+            continue  # Move to the next detected object
+
+        # Special case for 'animal fat'
+        if detected_object == 'animal fat':
+            detected_object = 'chicken'
+
+        for ingredient in ingredient_list:
+            if re.search(rf'\b{detected_object}\b', ingredient["displayName"].lower()) or any(re.search(rf'\b{detected_object}\b', name.lower()) for name in ingredient["alternateNames"]):
+                # convert ingredient to a tuple so it's hashable
+                ingredient_tuple = (ingredient["displayName"], ingredient["_id"], tuple(ingredient["alternateNames"]), ingredient["image"])
+                detected_ingredients.add(ingredient_tuple)
+                ingredient_recipes[ingredient["displayName"]] = []
+
+    # Convert detected_ingredients back to a list of dicts for further processing
+    detected_ingredients = [{"displayName": ingredient[0], "_id": ingredient[1], "alternateNames": list(ingredient[2]), "image": ingredient[3]} for ingredient in detected_ingredients]
 
     recipe_counts = {}
     for recipe in recipe_list:
@@ -107,9 +134,10 @@ def results():
                 recipe_counts[recipe["Recipe_Name"]]["count"] += 1
 
     # Sort the recipes by count and take the top 5
-    top_recipes = sorted(recipe_counts.items(), key=lambda x: x[1]["count"], reverse=True)[:3]
+    top_recipes = sorted(recipe_counts.items(), key=lambda x: x[1]["count"], reverse=True)[:10]
 
-    return render_template('results.html', results=detected_objects, ingredients=detected_ingredients, ingredient_recipes=ingredient_recipes, top_recipes=top_recipes)
+    return render_template('results.html', results=detected_objects, ingredients=detected_ingredients, ingredient_recipes=ingredient_recipes, top_recipes=top_recipes, all_detected_objects=session.get('results', []))
+
 
 
 
