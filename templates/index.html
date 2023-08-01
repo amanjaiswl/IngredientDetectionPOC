@@ -40,6 +40,7 @@
     <div class="d-flex justify-content-center mb-5">
         <button id="file-upload-btn" class="btn btn-primary me-4">Choose File</button>
         <button id="start-camera" class="btn btn-secondary">Capture from Camera</button>
+        <button id="switch-camera" class="btn btn-secondary">Switch Camera</button>
     </div>
     <video id="camera-stream" class="mx-auto d-block" hidden autoplay></video>
     <button id="capture-btn" class="btn btn-primary mx-auto d-block" hidden>Capture</button>
@@ -55,6 +56,7 @@
     <script>
         const audioFiles = ['mp3.mp3', 'oldtown.mp3', 'thatway.mp3', 'rockthaparty.mp3'];
         let audioPlayer;
+        let useFrontCamera = false;
 
         // When the form is submitted, show the loading animation and play a random audio.
         $("#upload-form").submit(function() {
@@ -82,6 +84,7 @@
         const imagePreview = document.getElementById('image-preview');
         const uploadForm = document.getElementById('upload-form');
         const fileInput = document.getElementById('file');
+        const switchCameraButton = document.getElementById('switch-camera');
 
         fileUploadButton.addEventListener('click', () => {
             fileInput.click();
@@ -101,12 +104,20 @@
         });
 
         startCameraButton.addEventListener('click', async () => {
-            const stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment' } });
+            const stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: useFrontCamera ? 'user' : 'environment' } });
             cameraStream.srcObject = stream;
             cameraStream.hidden = false;
             imagePreview.hidden = true;
             startCameraButton.hidden = true;
             captureButton.hidden = false;
+        });
+
+        switchCameraButton.addEventListener('click', () => {
+            useFrontCamera = !useFrontCamera;
+            if (cameraStream.srcObject) {
+                cameraStream.srcObject.getVideoTracks().forEach(track => track.stop());
+            }
+            startCameraButton.click();
         });
 
         captureButton.addEventListener('click', () => {
